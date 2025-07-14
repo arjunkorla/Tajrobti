@@ -13,7 +13,6 @@
     height: 100%;
     content: '';
     z-index: -1;
-    background: rgb(17 17 17 / 88%);
 }
 .footer-top-outer{
     padding: 85px 0px;
@@ -38,7 +37,7 @@ h4.footer_widget_title{
     font-size: 16px;
     line-height: 26px;
     font-weight: 400;
-    color: #ABABAB;
+    color: #EAF0FF;
     font-family: var(--secondary-font);
     margin-bottom: 25px;
 }
@@ -60,7 +59,7 @@ h4.footer_widget_title{
 }
 .footer_resources_widget ul li a,
 .footer_community_widget ul li a{
-    color: #ABABAB;
+    color: #EAF0FF;
     font-size: 16px;
     font-weight: 400;
     line-height: 28px;
@@ -71,13 +70,13 @@ h4.footer_widget_title{
 }
 .footer_resources_widget ul li a:hover,
 .footer_community_widget ul li a:hover{
-    color: var(--theme-color);
+    color: #111111;
 }
 .footer_newsletter_widget p{
     font-size: 16px;
     line-height: 26px;
     font-weight: 400;
-    color: #ABABAB;
+    color: #EAF0FF;
     max-width: 360px;
     font-family: var(--secondary-font);
     margin-bottom: 30px;
@@ -87,7 +86,7 @@ h4.footer_widget_title{
 }
 .footer_newsletter_widget .subscribe-form .form-group input{
     width: 100%;
-    color: #ABABAB;
+    color: #EAF0FF;
     height: 70px;
     font-size: 16px;
     line-height: 50px;
@@ -126,7 +125,7 @@ h4.footer_widget_title{
 .footer-bottom-outer .social-links li strong{
     font-size: 18px;
     line-height: 26px;
-    color: #ABABAB;
+    color: #EAF0FF;
     font-weight: 400;
     font-family: var(--secondary-font);
 }
@@ -140,7 +139,7 @@ h4.footer_widget_title{
     font-family: var(--secondary-font);
 }
 .footer-bottom-outer .copyright a{
-    color: var(--theme-color);
+    color:#EAF0FF;
 }
 .dark-bg .main_footer:before{
     display: none;
@@ -151,19 +150,19 @@ h4.footer_widget_title{
 .dark-bg .footer_about_widget h6 strong {
     font-size: 18px;
     line-height: 26px;
-    color: #ABABAB;
+    color: #EAF0FF;
     font-weight: 400;
     font-family: var(--secondary-font);
 }
 .dark-bg .footer_about_widget ul li a{
     line-height: 44px;
-    color: #ABABAB;
+    color: #EAF0FF;
 }
 .dark-bg .footer_about_widget ul li a:hover{
     color: #fff;
 }
 .main_footer.home-three{
-    background-color: #060702;
+    background-color:#2C3BFF;
 }
 .home-three .main_footer:before{
     display: none;
@@ -174,13 +173,13 @@ h4.footer_widget_title{
 .home-three .footer_about_widget h6 strong {
     font-size: 18px;
     line-height: 26px;
-    color: #ABABAB;
+    color: #EAF0FF;
     font-weight: 400;
     font-family: var(--secondary-font);
 }
 .home-three .footer_about_widget ul li a{
     line-height: 44px;
-    color: #ABABAB;
+    color: #EAF0FF;
 }
 .home-three .footer_about_widget ul li a:hover{
     color: #fff;
@@ -189,13 +188,13 @@ h4.footer_widget_title{
     font-size: 16px;
     line-height: 26px;
     font-weight: 400;
-    color: #ABABAB;
+    color: #EAF0FF;
     max-width: 360px;
     font-family: var(--secondary-font);
     margin-bottom: 30px;
 }
 .footer_contact_widget ul li a {
-    color: #ABABAB;
+    color: #EAF0FF;
     font-size: 20px;
     font-weight: 500;
     line-height: 28px;
@@ -208,13 +207,13 @@ h4.footer_widget_title{
     justify-content: center;
 }
 .dark-bg .footer-bottom-outer .copyright{
-    color: #ABABAB;
+    color: #EAF0FF;
 }
 .home-three .footer-bottom-outer{
     justify-content: center;
 }
 .home-three .footer-bottom-outer .copyright{
-    color: #ABABAB;
+    color: #EAF0FF;
 }
 
 @media only screen and (max-width: 991px){

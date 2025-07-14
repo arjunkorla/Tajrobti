@@ -1255,7 +1255,7 @@ p.single-featured-car-text {
     font-weight: 500;
     margin-bottom: 25px;
     border-radius: 50px;
-    color: rgb(255, 44, 59);
+    color:#2C3BFF;
     opacity: 0;
     text-transform: uppercase;
     font-family: var(--secondary-font);

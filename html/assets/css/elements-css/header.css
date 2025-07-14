@@ -1,3 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Tajawal:wght@200;300;400;500;700;800;900&family=Zain:ital,wght@0,200;0,300;0,400;0,700;0,800;0,900;1,300;1,400&display=swap');
+
+.arabic{
+    font-family: 'Tajawal', sans-serif !important;
+    font-weight: 700;
+}
+
+.header-links{
+    color:#2C3BFF !important;
+    font-family: var( --primary-font);
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 28px;
+    letter-spacing: 0.32px;
+    transition: all 500ms ease 0s;
+}
+
 .search-popup {
     position: fixed;
     left: 0px;
@@ -510,7 +528,7 @@ nav.main-menu {
 
 .main-menu .navigation li.dropdown .dropdown-btn i {
     position: relative;
-    color: var(--primary-color);
+    color:#2C3BFF;
     font-size: 12px;
     font-style: normal;
     font-weight: 900;
@@ -857,7 +875,7 @@ div#mCSB_1_container {
     left: 0px;
 }
 .home-three.fixed_header .sticky_header {
-    background: rgb(18, 18, 18);
+    background:#EAF0FF;
 }
 .header.home-three .header-top-one {
     background: transparent;
@@ -890,27 +908,27 @@ div#mCSB_1_container {
 }
 .header.home-three .header-top-one .header-top-contact-info ul li i {
     font-size: 18px;
-    color: rgb(0, 0, 0);
+    color:#2C3BFF;
 }
 .home-three .main_header_inner {
     border-radius: 10px;
     padding: 0px 20px 0px 30px;
-    background-color: rgb(18, 18, 18);
+    background-color:#EAF0FF;
 }
 .home-three .main-menu .navigation > li > a {
-    color: rgb(255, 255, 255);
+    color:#2C3BFF;
 }
 .home-three .main-menu .navigation > li.active > a {
     color: var(--theme-color);
 }
 .home-three .main_header_inner .search-toggler {
-    color: rgb(255, 255, 255);
+    color:#2C3BFF;
 }
 .header #polyglotLanguageSwitcher span.trigger {
     display: block;
 }
 .header #polyglotLanguageSwitcher span.trigger::before {
-    color: rgb(0, 0, 0);
+    color:#2C3BFF;
     content: "";
     top: 9px;
     right: -20px;
@@ -921,7 +939,7 @@ div#mCSB_1_container {
     color: rgb(255, 255, 255);
 }
 .home-three #polyglotLanguageSwitcher span.trigger::before {
-    color: rgb(255, 255, 255);
+    color:#2C3BFF;
 }
 .header.home-four {
     position: absolute;

@@ -3,7 +3,7 @@
     --body-color: #6a6a6a;
     --grey-bg: #F6F6F6;
     --rating-color: #FFBA07;
-    --theme-color: #FF2C3B;
+    --theme-color: #2C3BFF;
     --primary-font: "Outfit", sans-serif;
     --secondary-font: 'Inter', sans-serif;
 }
@@ -142,6 +142,15 @@ img {
     transition-duration: .7s;
     transition-property: all;
 }
+
+.ad-border{
+    border: 1px solid #E5E5E5;
+    background: #ffffff;
+    border-radius: 6px;
+    padding: 10px;
+    margin-bottom: 30px;
+}
+
 /* Preloader */
 .handle-preloader {
     align-items: center;
@@ -308,8 +317,8 @@ img {
 .mr_30{
     margin-right: 30px;
 }
-.pt_50{
-    padding-top: 50px;
+.ptb-50{
+    padding: 50px 0;
 }
 .mb_60{
     margin-bottom: 60px;
@@ -319,6 +328,9 @@ img {
 }
 .mb_30{
     margin-bottom: 30px;
+}
+.mb_10{
+    margin-bottom: 10px;
 }
 .pt_120{
     padding-top: 120px;
@@ -350,7 +362,7 @@ img {
     border-radius: 50px;
     color: var(--theme-color);    
     padding: 5px 12px;
-    background: rgb(255 44 59 / 10%);
+    background: rgb(44 59 255 / 10%);
     text-transform: uppercase;
     font-family: var(--secondary-font);
 }

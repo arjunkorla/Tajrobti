@@ -734,9 +734,9 @@ p.single-featured-car-text {
     display: inline-block;
     font-weight: 500;
     border-radius: 50px;
-    color: rgb(255, 44, 59);
+    color: #2C3BFF;
     padding: 5px 12px;
-    background: rgba(255, 44, 59, 0.05);
+    background: rgb(44 59 255 / 10%);
     border: 1px solid rgba(255, 44, 59, 0.2);
     text-transform: uppercase;
     font-family: var(--secondary-font);

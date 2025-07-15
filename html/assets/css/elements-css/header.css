@@ -827,7 +827,7 @@ div#mCSB_1_container {
 }
 .scroll-top:hover {
     color: var(--bs-white);
-    background-color: var(--primary-color);
+    background-color: var(--theme-color);
 }
 .dark-header {
     position: absolute;

@@ -737,7 +737,6 @@ p.single-featured-car-text {
     color: #2C3BFF;
     padding: 5px 12px;
     background: rgb(44 59 255 / 10%);
-    border: 1px solid rgba(255, 44, 59, 0.2);
     text-transform: uppercase;
     font-family: var(--secondary-font);
 }

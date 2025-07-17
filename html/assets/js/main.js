@@ -262,11 +262,11 @@
 		  max: 300,
 		  values: [ 120, 200 ],
 		  slide: function( event, ui ) {
-			$( "#amount" ).val( "$" + ui.values[ 0 ] + " - $" + ui.values[ 1 ] );
+			$( "#amount" ).val( "KD" + ui.values[ 0 ] + " - KD" + ui.values[ 1 ] );
 		  }
 		});
-		$( "#amount" ).val( "$" + $( "#slider-range" ).slider( "values", 0 ) +
-		  " - $" + $( "#slider-range" ).slider( "values", 1 ) );
+		$( "#amount" ).val( "KD" + $( "#slider-range" ).slider( "values", 0 ) +
+		  " - KD" + $( "#slider-range" ).slider( "values", 1 ) );
 	});
 
     // Elements Animation

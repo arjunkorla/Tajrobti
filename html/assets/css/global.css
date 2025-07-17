@@ -335,6 +335,9 @@ img {
 .pt_120{
     padding-top: 120px;
 }
+.pt_60{
+    padding-top: 60px;
+}
 .pb_120{
     padding-bottom: 120px;
 }
@@ -781,6 +784,7 @@ img {
     align-items: center;
     gap: 5px;
     margin-top: 40px;
+    justify-content:center;
 }
 .pagination li a{
     position: relative;

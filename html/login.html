@@ -32,8 +32,79 @@
     <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&amp;display=swap" rel="stylesheet">
     <!-- End Google Fonts -->
 
-</head>
+    <!-- Font Awesome for the upload icon -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
 
+<style>
+.upload-wrapper {
+    position: relative;
+    border: 2px dashed #ccc;
+    padding: 5px;
+    text-align: left;
+    cursor: pointer;
+    transition: all 0.3s;
+    border-radius: 8px;
+    background-color: #f9f9f9;
+    display: flex;
+    align-items: center;
+}
+
+.upload-wrapper:hover {
+    border-color: #007bff;
+    background-color: #f1f8ff;
+}
+
+.upload-content {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.upload-wrapper i {
+    font-size: 24px;
+    color: #007bff;
+}
+
+.upload-wrapper span {
+    font-weight: 500;
+    color: #333;
+    font-size: 14px !important;
+}
+
+.upload-wrapper input[type="file"] {
+    opacity: 0;
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    cursor: pointer;
+}
+
+.form-text {
+    font-size: 0.75rem;
+    color: #6c757d;
+    margin-top: -10px;
+}
+
+.nav-tabs .nav-link {
+  border: none;
+  background-color: #f0f0f0;
+  color: #333;
+  border-radius: 5px;
+  font-weight: 500;
+  width: 300px;
+  font-size: 16px;
+}
+.nav-tabs .nav-link.active {
+  background-color: #2C3BFF;
+  color: #fff;
+}
+
+</style>
+
+</head>
 <!-- Page Wrapper -->
 <body class="boxed_wrapper">
 
@@ -227,230 +298,131 @@
 <!-- End Main Header -->
 
 <!-- Breadcrumb Section -->
-<section class="breadcrumb-section" style="background-image: url(assets/images/background/inner-banner-bg-4.png);">
+<section class="breadcrumb-section" style="background-image: url(assets/images/background/inner-banner-bg-2.png);">
     <div class="container">
         <div class="banner-content">
-            <h1>News</h1>
+            <h1>Login / Register</h1>
         </div>
     </div>
 </section>
 <!-- Breadcrumb Section End -->
 
-<!-- sidebar-page-container -->
-<section class="sidebar-page-container pt_120 pb_90">
-    <div class="container">
-        <div class="row">
-            <div class="col-lg-12 col-md-12 col-sm-12 content-side">
-                <div class="blog-grid-content">
-                    <div class="row">
-                        <div class="col-lg-4 col-md-4 col-sm-12">
-                            <div class="blog-post-one">
-                                <div class="blog-post-outer">
-                                    <div class="blog-post-image">
-                                        <a href="news-details.html"><img src="assets/images/blog/blog-image-01.jpg" alt=""></a>
-                                    </div>
-                                    <div class="blog-post-content">
-                                        <ul class="post-info">
-                                            <li class="post-tag"><a href="news-details.html">Travel Blog</a></li>
-                                            <li class="post-date"><i class="icon-31"></i>20 Mar, 2025</li>
-                                        </ul>
-                                        <h3 class="post-title"><a href="news-details.html">10 European ski destinations you should visit this winter</a></h3>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-lg-4 col-md-4 col-sm-12">
-                            <div class="blog-post-one">
-                                <div class="blog-post-outer">
-                                    <div class="blog-post-image">
-                                        <img src="assets/images/blog/blog-image-02.jpg" alt="">
-                                    </div>
-                                    <div class="blog-post-content">
-                                        <ul class="post-info">
-                                            <li class="post-tag"><a href="blog-details.html">Covid Travel</a></li>
-                                            <li class="post-date"><i class="icon-31"></i>20 Mar, 2025</li>
-                                        </ul>
-                                        <h3 class="post-title"><a href="news-details.html">Booking travel during Corona: Find who are giving service</a></h3>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-lg-4 col-md-4 col-sm-12">
-                            <div class="blog-post-one">
-                                <div class="blog-post-outer">
-                                    <div class="blog-post-image">
-                                        <img src="assets/images/blog/blog-image-03.jpg" alt="">
-                                    </div>
-                                    <div class="blog-post-content">
-                                        <ul class="post-info">
-                                            <li class="post-tag"><a href="blog-details.html">Kuwait Travel</a></li>
-                                            <li class="post-date"><i class="icon-31"></i>20 Mar, 2025</li>
-                                        </ul>
-                                        <h3 class="post-title"><a href="news-details.html">Top Luxury Cars of 2023 Style, Comfort, and Performance</a></h3>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-lg-4 col-md-4 col-sm-12">
-                            <div class="blog-post-one">
-                                <div class="blog-post-outer">
-                                    <div class="blog-post-image">
-                                        <img src="assets/images/blog/blog-image-04.jpg" alt="">
-                                    </div>
-                                    <div class="blog-post-content">
-                                        <ul class="post-info">
-                                            <li class="post-tag"><a href="blog-details.html">Kuwait City</a></li>
-                                            <li class="post-date"><i class="icon-31"></i>20 Mar, 2025</li>
-                                        </ul>
-                                        <h3 class="post-title"><a href="news-details.html">The Most Innovative Car Safety Features of 2023 Protecting Drivers</a></h3>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-lg-4 col-md-4 col-sm-12">
-                            <div class="blog-post-one">
-                                <div class="blog-post-outer">
-                                    <div class="blog-post-image">
-                                        <img src="assets/images/blog/blog-image-05.jpg" alt="">
-                                    </div>
-                                    <div class="blog-post-content">
-                                        <ul class="post-info">
-                                            <li class="post-tag"><a href="blog-details.html">Kuwait </a></li>
-                                            <li class="post-date"><i class="icon-31"></i>20 Mar, 2025</li>
-                                        </ul>
-                                        <h3 class="post-title"><a href="news-details.html">The Most Iconic Car Logos of All Time From Ferrari to Lamborghini</a></h3>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-lg-4 col-md-4 col-sm-12">
-                            <div class="blog-post-one">
-                                <div class="blog-post-outer">
-                                    <div class="blog-post-image">
-                                        <img src="assets/images/blog/blog-image-06.jpg" alt="">
-                                    </div>
-                                    <div class="blog-post-content">
-                                        <ul class="post-info">
-                                            <li class="post-tag"><a href="blog-details.html">Kuwait City</a></li>
-                                            <li class="post-date"><i class="icon-31"></i>20 Mar, 2025</li>
-                                        </ul>
-                                        <h3 class="post-title"><a href="news-details.html">The Best Cars for Uber and Lyft Drivers Comfort and Efficiency</a></h3>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-lg-4 col-md-4 col-sm-12">
-                            <div class="blog-post-one">
-                                <div class="blog-post-outer">
-                                    <div class="blog-post-image">
-                                        <img src="assets/images/blog/blog-image-07.jpg" alt="">
-                                    </div>
-                                    <div class="blog-post-content">
-                                        <ul class="post-info">
-                                            <li class="post-tag"><a href="blog-details.html">Kuwait Travel</a></li>
-                                            <li class="post-date"><i class="icon-31"></i>20 Mar, 2025</li>
-                                        </ul>
-                                        <h3 class="post-title"><a href="news-details.html">Best Cars for Music Lovers Sound Systems and Acoustics</a></h3>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-lg-4 col-md-4 col-sm-12">
-                            <div class="blog-post-one">
-                                <div class="blog-post-outer">
-                                    <div class="blog-post-image">
-                                        <img src="assets/images/blog/blog-image-08.jpg" alt="">
-                                    </div>
-                                    <div class="blog-post-content">
-                                        <ul class="post-info">
-                                            <li class="post-tag"><a href="blog-details.html">Travel</a></li>
-                                            <li class="post-date"><i class="icon-31"></i>20 Mar, 2025</li>
-                                        </ul>
-                                        <h3 class="post-title"><a href="news-details.html">The Best Cars for Uber and Lyft Drivers Comfort and Efficiency</a></h3>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-lg-4 col-md-4 col-sm-12">
-                            <div class="blog-post-one">
-                                <div class="blog-post-outer">
-                                    <div class="blog-post-image">
-                                        <img src="assets/images/blog/blog-image-09.jpg" alt="">
-                                    </div>
-                                    <div class="blog-post-content">
-                                        <ul class="post-info">
-                                            <li class="post-tag"><a href="blog-details.html">Kuwait City</a></li>
-                                            <li class="post-date"><i class="icon-31"></i>20 Mar, 2025</li>
-                                        </ul>
-                                        <h3 class="post-title"><a href="news-details.html">The Most Fuel-Efficient Cars of 2023 Saving Money and the Environment</a></h3>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-lg-4 col-md-4 col-sm-12">
-                            <div class="blog-post-one">
-                                <div class="blog-post-outer">
-                                    <div class="blog-post-image">
-                                        <img src="assets/images/blog/blog-image-10.jpg" alt="">
-                                    </div>
-                                    <div class="blog-post-content">
-                                        <ul class="post-info">
-                                            <li class="post-tag"><a href="blog-details.html">Kuwait</a></li>
-                                            <li class="post-date"><i class="icon-31"></i>20 Mar, 2025</li>
-                                        </ul>
-                                        <h3 class="post-title"><a href="news-details.html">Five Ways to Spend Your Summer Vacation Driving Around</a></h3>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-lg-4 col-md-4 col-sm-12">
-                            <div class="blog-post-one">
-                                <div class="blog-post-outer">
-                                    <div class="blog-post-image">
-                                        <img src="assets/images/blog/blog-image-11.jpg" alt="">
-                                    </div>
-                                    <div class="blog-post-content">
-                                        <ul class="post-info">
-                                            <li class="post-tag"><a href="blog-details.html">Kuwait Travel</a></li>
-                                            <li class="post-date"><i class="icon-31"></i>20 Mar, 2025</li>
-                                        </ul>
-                                        <h3 class="post-title"><a href="news-details.html">Top Hybrid Cars of 2023 Combining Performance and Efficiency</a></h3>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-lg-4 col-md-4 col-sm-12">
-                            <div class="blog-post-one">
-                                <div class="blog-post-outer">
-                                    <div class="blog-post-image">
-                                        <img src="assets/images/blog/blog-image-12.jpg" alt="">
-                                    </div>
-                                    <div class="blog-post-content">
-                                        <ul class="post-info">
-                                            <li class="post-tag"><a href="blog-details.html">Travel</a></li>
-                                            <li class="post-date"><i class="icon-31"></i>20 Mar, 2025</li>
-                                        </ul>
-                                        <h3 class="post-title"><a href="news-details.html">Booking travel during Corona: Find who are giving service</a></h3>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="pagination-wrapper pt_25">
-                        <ul class="pagination clearfix">
-                            <li><a href="#"><i class="fa-solid fa-angle-left"></i></a></li>
-                            <li><a href="#" class="current">1</a></li>
-                            <li><a href="#">2</a></li>
-                            <li><a href="#">3</a></li>
-                            <li><a href="#"><i class="fa-solid fa-angle-right"></i></a></li>
-                        </ul>
-                    </div>
+<!-- Pricing Section -->
+ <section class="contact-section pt_120 pb_120">
+  <div class="container">
+    <div class="section-title centred mb_60">
+      <span class="sub-title">Welcome to Tajrobti</span>
+      <h2 class="title">Login or Register</h2>
+    </div>
+
+    <!-- Nav Tabs -->
+    <ul class="nav nav-tabs justify-content-center mb-4" id="authTab" role="tablist">
+      <li class="nav-item" role="presentation">
+        <button class="nav-link active" id="login-tab" data-bs-toggle="tab" data-bs-target="#login" type="button" role="tab">Login</button>
+      </li>
+      <li class="nav-item" role="presentation">
+        <button class="nav-link" id="register-tab" data-bs-toggle="tab" data-bs-target="#register" type="button" role="tab">Register</button>
+      </li>
+    </ul>
+
+    <!-- Tab Content -->
+    <div class="tab-content" id="authTabContent">
+
+      <!-- 🔐 Login Tab -->
+      <div class="tab-pane fade show active" id="login" role="tabpanel">
+        <form action="#" method="post" class="default-form">
+          <div class="row justify-content-center">
+            <div class="col-md-6 form-group">
+              <input type="email" name="login_email" placeholder="Email Address" required>
+            </div>
+            <div class="col-md-6 form-group">
+              <input type="password" name="login_password" placeholder="Password" required>
+            </div>
+            <div class="col-12 form-group d-flex justify-content-between align-items-center">
+                <div class="check-box">
+                    <input class="check" type="checkbox" id="checkbox33">
+                    <label for="checkbox33">Remember Me</label>
+                </div>
+              <div>
+                <a href="#" class="text-muted" style="font-size: 0.9rem;">Forgot Password?</a>
+              </div>
+            </div>
+            <div class="col-12 form-group centred">
+              <button type="submit" class="btn-style-five">Login</button>
+            </div>
+          </div>
+        </form>
+      </div>
+
+      <!-- 📝 Register Tab -->
+      <div class="tab-pane fade" id="register" role="tabpanel">
+        <form action="#" method="post" class="default-form">
+          <div class="row justify-content-center">
+
+            <div class="col-md-6 form-group">
+              <input type="text" name="register_name" placeholder="Full Name" required>
+            </div>
+
+            <div class="col-md-6 form-group">
+              <input type="email" name="register_email" placeholder="Email Address" required>
+            </div>
+
+            <div class="col-md-6 form-group">
+              <input type="password" name="register_password" placeholder="Password" required>
+            </div>
+
+            <div class="col-md-6 form-group">
+              <input type="password" name="register_confirm_password" placeholder="Confirm Password" required>
+            </div>
+
+            <div class="col-md-6 form-group">
+              <input type="tel" name="mobile_number" placeholder="Mobile Number" required>
+            </div>
+
+            <div class="col-md-6 form-group">
+              <select name="location" class="my-select" required>
+                <option value="">Select Location</option>
+                <option value="Hawalli">Hawalli</option>
+                <option value="Salmiya">Salmiya</option>
+                <option value="Kuwait City">Kuwait City</option>
+                <option value="Farwaniya">Farwaniya</option>
+                <option value="Jahra">Jahra</option>
+              </select>
+            </div>
+
+            <div class="col-md-6 form-group">
+              <select name="car_brand" class="my-select" required>
+                <option value="">Preferred Car Brand</option>
+                <option value="Toyota">Toyota</option>
+                <option value="Honda">Honda</option>
+                <option value="Ford">Ford</option>
+                <option value="BMW">BMW</option>
+                <option value="Chevrolet">Chevrolet</option>
+              </select>
+            </div>
+
+            <div class="col-md-6 form-group">
+              <input type="text" name="car_model" placeholder="Preferred Car Model" required>
+            </div>
+
+            <div class="col-12 form-group d-flex align-items-center">
+              <div class="check-box">
+                    <input class="check" type="checkbox" id="checkbox34">
+                    <label for="checkbox34">I agree to the <a href="#">Terms & Conditions</a></label>
                 </div>
             </div>
-        </div>
+
+            <div class="col-12 form-group centred">
+              <button type="submit" class="btn-style-five">Register</button>
+            </div>
+
+          </div>
+        </form>
+      </div>
     </div>
+  </div>
 </section>
-<!-- sidebar-page-container end -->
+<!-- Pricing Section End -->
 
 <!-- Main Footer -->
 <footer class="main_footer home-three">
@@ -542,6 +514,4 @@
 
 </body>
 <!-- End Page Wrapper -->
-
-<!-- Mirrored from z.commonsupport.com/html/carola/blog-grid.html by HTTrack Website Copier/3.x [XR&CO'2014], Fri, 11 Jul 2025 05:23:25 GMT -->
 </html>

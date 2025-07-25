@@ -28,6 +28,86 @@ body {
     background-position:center top;
     -webkit-font-smoothing: antialiased;
 }
+
+.post-container {
+    max-width: 600px;
+    margin: 40px auto;
+    padding: 20px;
+    background-color: #ffffff;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.05);
+}
+
+/* Header */
+.post-header {
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+    font-size: 14px;
+    color: #555;
+}
+
+.post-header img {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+/* Title */
+.post-title {
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    color: #222;
+}
+
+/* Body */
+.post-body {
+    font-size: 16px;
+    line-height: 1.5;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+/* Footer */
+.post-footer {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    font-size: 14px;
+    color: #666;
+    border-top: 1px solid #eee;
+    padding-top: 10px;
+}
+
+.post-footer span {
+    display: flex;
+    align-items: center;
+    margin: 5px 10px 0 0;
+    cursor: pointer;
+}
+
+.post-footer .icon {
+    margin-right: 5px;
+}
+
+/* Vote Section */
+.vote-section-inline {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    font-weight: bold;
+    color: #222;
+}
+
+
+/* Optional: Icons with Emoji or Font Awesome fallback */
+.icon {
+    font-style: normal;
+}
+
 .boxed_wrapper {
     position: relative;
     overflow-x: hidden;
@@ -414,7 +494,7 @@ img {
     }
 }
 .btn-style-one{
-    font-size: 18px;
+    font-size: 14px;
     font-style: normal;
     font-weight: 500;
     line-height: 26px;

@@ -167,7 +167,7 @@
 
 .header-top-social-icon ul li a {
     color: rgb(255, 255, 255);
-    font-size: 15px;
+    font-size: 14px;
     line-height: 26px;
     font-weight: 400;
     transition: all 500ms ease 0s;
@@ -364,7 +364,7 @@ nav.main-menu {
     display: block;
     padding: 10px 15px;
     z-index: 1;
-    font-size: 16px;
+    font-size: 14px;
     line-height: 26px;
     font-weight: 600;
     color: var(--primary-color);
@@ -658,7 +658,7 @@ nav.main-menu {
     line-height: 30px;
     width: 24px;
     text-align: center;
-    font-size: 16px;
+    font-size: 14px;
     color: rgb(255, 255, 255);
     cursor: pointer;
     z-index: 10;
@@ -699,7 +699,7 @@ nav.main-menu {
     display: block;
     line-height: 24px;
     padding: 10px 20px;
-    font-size: 15px;
+    font-size: 14px;
     font-weight: 500;
     color: rgb(255, 255, 255);
     text-transform: uppercase;
@@ -707,7 +707,7 @@ nav.main-menu {
 }
 
 .mobile-menu .navigation li ul li > a {
-    font-size: 16px;
+    font-size: 14px;
     margin-left: 20px;
     text-transform: capitalize;
 }
@@ -733,7 +733,7 @@ nav.main-menu {
     width: 32px;
     height: 32px;
     text-align: center;
-    font-size: 16px;
+    font-size: 14px;
     line-height: 32px;
     color: rgb(255, 255, 255);
     display: block;
@@ -761,7 +761,7 @@ nav.main-menu {
 .mobile-menu .social-links li a {
     position: relative;
     line-height: 44px;
-    font-size: 16px;
+    font-size: 14px;
     color: rgb(255, 255, 255);
     transition: all 500ms ease 0s;
 }
@@ -786,7 +786,7 @@ div#mCSB_1_container {
 .mobile-menu .contact-info ul li {
     position: relative;
     display: block;
-    font-size: 15px;
+    font-size: 14px;
     color: rgba(255, 255, 255, 0.8);
     margin-bottom: 3px;
 }
@@ -895,7 +895,7 @@ div#mCSB_1_container {
     gap: 45px;
 }
 .header.home-three .header-top-one .header-top-contact-info ul li {
-    font-size: 15px;
+    font-size: 14px;
     font-weight: 500;
     color: rgb(17, 17, 17);
     display: flex;

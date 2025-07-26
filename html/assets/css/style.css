@@ -220,7 +220,7 @@
 }
 
 .single-brand-item .brand-title h6 {
-    font-size: 16px;
+    font-size: 14px;
     line-height: 26px;
     font-weight: 500;
     color: rgb(17, 17, 17);
@@ -308,7 +308,7 @@
     border: 1px solid rgb(229, 229, 229);
 }
 .single-popular-car-rating i {
-    font-size: 16px;
+    font-size: 14px;
     color: var(--rating-color);
 }
 h5.single-popular-car-title {
@@ -320,7 +320,7 @@ h5.single-popular-car-title {
     margin-bottom: 15px;
 }
 p.single-popular-car-text {
-    font-size: 16px;
+    font-size: 14px;
     line-height: 26px;
     font-weight: 400;
     color: rgb(17, 17, 17);
@@ -331,7 +331,7 @@ p.single-popular-car-text {
     margin: 25px 0px;
 }
 .single-popular-car-info li {
-    font-size: 16px;
+    font-size: 14px;
     font-weight: 400;
     color: rgb(17, 17, 17);
     line-height: 30px;
@@ -406,7 +406,7 @@ p.single-popular-car-text {
     transform: rotate(360deg);
 }
 .car-type-item .car-name h6 {
-    font-size: 16px;
+    font-size: 14px;
     line-height: 26px;
     font-weight: 500;
     color: rgb(17, 17, 17);
@@ -457,7 +457,7 @@ h5.why-chooseus-title {
     margin-bottom: 20px;
 }
 p.why-chooseus-text {
-    font-size: 16px;
+    font-size: 14px;
     line-height: 26px;
     font-weight: 400;
     color: var(--body-color);
@@ -584,7 +584,7 @@ p.why-chooseus-text {
     border: 1px solid rgb(229, 229, 229);
 }
 .single-featured-car-rating i {
-    font-size: 16px;
+    font-size: 14px;
     color: var(--rating-color);
 }
 .dark-bg .single-featured-car-rating {
@@ -596,7 +596,7 @@ p.why-chooseus-text {
     color: var(--primary-color);
 }
 h5.single-featured-car-title {
-    font-size: 24px;
+    font-size: 14px;
     font-weight: 500;
     line-height: 36px;
     font-family: var(--primary-font);
@@ -612,7 +612,7 @@ h5.single-featured-car-title a:hover {
     color: var(--theme-color);
 }
 p.single-featured-car-text {
-    font-size: 16px;
+    font-size: 14px;
     line-height: 26px;
     font-weight: 400;
     color: rgb(17, 17, 17);
@@ -629,7 +629,7 @@ p.single-featured-car-text {
     margin: 25px 0px;
 }
 .single-featured-car-info li {
-    font-size: 16px;
+    font-size: 14px;
     font-weight: 400;
     color: rgb(17, 17, 17);
     line-height: 30px;
@@ -741,7 +741,7 @@ p.single-featured-car-text {
     font-family: var(--secondary-font);
 }
 .blog-post-content .post-info li {
-    font-size: 16px;
+    font-size: 14px;
     line-height: 26px;
     color: var(--body-color);
     font-weight: 400;
@@ -755,7 +755,7 @@ p.single-featured-car-text {
     font-size: 20px;
 }
 .blog-post-content .post-title {
-    font-size: 24px;
+    font-size: 16px;
     line-height: 30px;
     font-weight: 600;
     font-family: var(--primary-font);
@@ -1016,7 +1016,7 @@ p.single-featured-car-text {
     font-size: 48px;
 }
 .promotional-banner-block h6 {
-    font-size: 16px;
+    font-size: 14px;
     line-height: 30px;
     color: rgb(171, 171, 171);
     font-weight: 500;
@@ -1135,7 +1135,7 @@ p.single-featured-car-text {
     color: rgb(17, 17, 17);
 }
 .testimonial-block-one .author-info span {
-    font-size: 16px;
+    font-size: 14px;
     line-height: 30px;
     color: rgb(255, 255, 255);
     font-weight: 400;
@@ -1153,7 +1153,7 @@ p.single-featured-car-text {
     color: rgb(255, 200, 68);
 }
 .testimonial-block-one .author-comments p {
-    font-size: 16px;
+    font-size: 14px;
     line-height: 26px;
     font-weight: 400;
     color: rgb(255, 255, 255);
@@ -1212,7 +1212,7 @@ p.single-featured-car-text {
     color: rgb(159, 157, 157);
     background: rgb(255, 255, 255);
     border-radius: 5px;
-    font-size: 16px;
+    font-size: 14px;
     line-height: 30px;
     font-weight: 400;
     padding: 10px 25px;
@@ -1399,7 +1399,7 @@ p.single-featured-car-text {
     background-color: rgb(255, 255, 255);
 }
 .services-block-one h6.service-title {
-    font-size: 16px;
+    font-size: 14px;
     font-weight: 500;
     line-height: 26px;
     margin-bottom: 15px;
@@ -1592,7 +1592,7 @@ p.single-featured-car-text {
     font-family: var(--primary-font);
 }
 .about-info-text {
-    font-size: 16px;
+    font-size: 14px;
     line-height: 26px;
     font-weight: 400;
     color: var(--body-color);
@@ -1866,7 +1866,7 @@ p.single-featured-car-text {
     font-family: var(--primary-font);
 }
 .testimonial-block-two .inner-box .author-info .designation {
-    font-size: 16px;
+    font-size: 14px;
     line-height: 30px;
     color: var(--body-color);
     font-weight: 400;
@@ -1885,7 +1885,7 @@ p.single-featured-car-text {
     color: rgb(255, 200, 68);
 }
 .testimonial-block-two .inner-box p {
-    font-size: 16px;
+    font-size: 14px;
     line-height: 26px;
     font-weight: 400;
     color: var(--body-color);
@@ -1898,12 +1898,12 @@ p.single-featured-car-text {
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center center;
-    padding: 260px 0px 140px;
+    padding: 200px 0px 70px;
 }
 .breadcrumb-section .banner-content h1 {
     color: rgb(255, 255, 255);
     text-align: center;
-    font-size: 64px;
+    font-size: 44px;
     font-weight: 600;
     line-height: 90%;
     font-family: var(--primary-font);
@@ -1978,7 +1978,7 @@ p.single-featured-car-text {
     display: inline-block;
 }
 .team-block-one .inner-box .author-info span {
-    font-size: 16px;
+    font-size: 14px;
     line-height: 30px;
     color: var(--body-color);
     font-weight: 400;
@@ -2088,7 +2088,7 @@ p.single-featured-car-text {
     padding: 15px 60px 33px 30px;
 }
 .accordion-box .accordion .acc-content p {
-    font-size: 16px;
+    font-size: 14px;
     font-weight: 400;
     line-height: 28px;
     color: var(--body-color);
@@ -2098,7 +2098,7 @@ p.single-featured-car-text {
     margin-bottom: 30px;
 }
 #questionForm input, #questionForm textarea {
-    font-size: 16px;
+    font-size: 14px;
     line-height: 28px;
     padding: 15px 30px;
     width: 100%;
@@ -2134,7 +2134,7 @@ p.single-featured-car-text {
     grid-area: 1 / 1 / span 2 / span 3;
 }
 .planning-details-section p {
-    font-size: 16px;
+    font-size: 14px;
     line-height: 26px;
     color: var(--body-color);
     font-family: var(--secondary-font);
@@ -2156,7 +2156,7 @@ p.single-featured-car-text {
 }
 .sortable-masonry .filter-tabs li {
     position: relative;
-    font-size: 16px;
+    font-size: 14px;
     font-weight: 500;
     line-height: 30px;
     color: rgb(17, 17, 17);
@@ -2265,7 +2265,7 @@ p.single-featured-car-text {
 }
 .pricing-block-one .feature-list li {
     padding: 10px 0px;
-    font-size: 16px;
+    font-size: 14px;
     line-height: 26px;
     font-weight: 400;
     color: rgb(17, 17, 17);
@@ -2360,7 +2360,7 @@ p.single-featured-car-text {
     border: 1px solid rgb(229, 229, 229);
 }
 .order-summary #couponForm input {
-    font-size: 16px;
+    font-size: 14px;
     line-height: 28px;
     font-weight: 400;
     color: var(--body-color);
@@ -2381,7 +2381,7 @@ p.single-featured-car-text {
     width: 100%;
 }
 .order-summary .bill-history li {
-    font-size: 16px;
+    font-size: 14px;
     line-height: 26px;
     font-weight: 500;
     color: rgb(17, 17, 17);
@@ -2418,7 +2418,7 @@ p.single-featured-car-text {
     margin-bottom: 20px;
 }
 .bill-information .contact-info .form-group input {
-    font-size: 16px;
+    font-size: 14px;
     line-height: 28px;
     font-weight: 400;
     font-family: var(--secondary-font);
@@ -2429,7 +2429,7 @@ p.single-featured-car-text {
     width: 100%;
 }
 .bill-information .pay-bill {
-    font-size: 16px;
+    font-size: 14px;
     font-weight: 500;
     line-height: 36px;
     font-family: var(--secondary-font);
@@ -2462,7 +2462,7 @@ p.single-featured-car-text {
 .payment-method label.btn {
     display: inline-block;
     padding: 10px 20px;
-    font-size: 16px;
+    font-size: 14px;
     cursor: pointer;
     color: var(--body-color);
     font-weight: 400;
@@ -2483,7 +2483,7 @@ p.single-featured-car-text {
     border-color: var(--theme-color);
 }
 .bill-information .contact-info p.text {
-    font-size: 16px;
+    font-size: 14px;
     line-height: 30px;
     font-weight: 400;
     color: var(--body-color);
@@ -2539,14 +2539,14 @@ p.single-featured-car-text {
     transform: rotate(45deg);
 }
 .terms-checkbox .checkbox-container h6 {
-    font-size: 16px;
+    font-size: 14px;
     line-height: 28px;
     font-weight: 400;
     color: rgb(17, 17, 17);
     font-family: var(--secondary-font);
 }
 .terms-checkbox .checkbox-container p {
-    font-size: 16px;
+    font-size: 14px;
     line-height: 28px;
     font-weight: 400;
     color: var(--body-color);
@@ -2586,7 +2586,7 @@ h3.sidebar-widget-title {
 }
 .sidebar-search-box input {
     padding: 20px 30px;
-    font-size: 16px;
+    font-size: 14px;
     font-weight: 400;
     color: var(--body-color);
     line-height: 28px;
@@ -2627,7 +2627,7 @@ h3.sidebar-widget-title {
     cursor: pointer;
     width: 100%;
     padding: 15px 20px;
-    font-size: 16px;
+    font-size: 14px;
     line-height: 28px;
     color: rgb(17, 17, 17);
     border-radius: 5px;
@@ -2721,7 +2721,7 @@ h3.sidebar-widget-title {
 .price-range-slider .btn-box .clear-btn {
     position: relative;
     display: inline-block;
-    font-size: 16px;
+    font-size: 14px;
     line-height: 30px;
     font-weight: 500;
     color: #222222;
@@ -2744,7 +2744,7 @@ h3.sidebar-widget-title {
 }  
 .check-box label {
     position: relative;
-    font-size: 16px;
+    font-size: 14px;
     line-height: 30px;
     color: var(--primary-color);
     padding-left: 20px;
@@ -2831,6 +2831,7 @@ h3.sidebar-widget-title {
     display: flex;
     align-items: center;
     gap: 30px;
+    justify-content: space-between;
 }
 .rating-location-box .location{
     font-size: 14px;
@@ -2899,7 +2900,7 @@ h3.car-details-title{
     font-family: var(--secondary-font);
 }
 .car-details-feature-content span{
-    font-size: 16px;
+    font-size: 14px;
     line-height: 26px;
     font-weight: 500;
     color: var(--primary-color);
@@ -2918,7 +2919,7 @@ h4.car-details-sub-title{
     color: var(--primary-color);
 }
 p.car-details-about-text{
-    font-size: 16px;
+    font-size: 14px;
     line-height: 26px;
     font-weight: 400;
     color: #6A6A6A;
@@ -2931,7 +2932,7 @@ p.car-details-about-text{
     display: flex;
     align-items: center;
     gap: 14px;
-    font-size: 16px;
+    font-size: 14px;
     line-height: 26px;
     font-weight: 400;
     color: var(--primary-color);
@@ -2946,7 +2947,7 @@ p.car-details-about-text{
     display: flex;
     align-items: center;
     gap: 14px;
-    font-size: 16px;
+    font-size: 14px;
     line-height: 26px;
     font-weight: 400;
     color: var(--primary-color);
@@ -2963,7 +2964,7 @@ p.car-details-about-text{
     border-bottom: 1px solid #E5E5E5;
 }
 .car-details-highlights-text{
-    font-size: 16px;
+    font-size: 14px;
     line-height: 26px;
     color: #6A6A6A;
     font-weight: 400;
@@ -2974,7 +2975,7 @@ p.car-details-about-text{
     display: flex;
     align-items: center;
     gap: 14px;
-    font-size: 16px;
+    font-size: 14px;
     line-height: 26px;
     font-weight: 400;
     color: var(--primary-color);
@@ -3000,7 +3001,7 @@ p.car-details-about-text{
     border-radius: 10px;
     padding: 10px 30px;
     width: 100%;
-    font-size: 16px;
+    font-size: 14px;
     line-height: 30px;
     font-weight: 600;
     color: var(--primary-color);
@@ -3020,7 +3021,7 @@ p.car-details-about-text{
     border-bottom: 1px solid #E5E5E5;
 }
 .select-time-box label{
-    font-size: 16px;
+    font-size: 14px;
     font-weight: 500;
     line-height: 30px;
     color: var(--primary-color);
@@ -3043,7 +3044,7 @@ p.car-details-about-text{
     border-bottom: 1px solid #E5E5E5;
 }
 .select-delivery-box label{
-    font-size: 16px;
+    font-size: 14px;
     font-weight: 500;
     line-height: 30px;
     color: var(--primary-color);
@@ -3058,7 +3059,7 @@ p.car-details-about-text{
     font-family: var(--secondary-font);
 }
 .add-extra-box h6.add-extra-sub-title{
-    font-size: 16px;
+    font-size: 14px;
     font-weight: 500;
     line-height: 30px;
     color: var(--primary-color);
@@ -3091,7 +3092,7 @@ p.car-details-about-text{
     padding-bottom: 10px;
 }
 .price-list li h6{
-    font-size: 16px;
+    font-size: 14px;
     font-weight: 400;
     line-height: 30px;
     color: #6A6A6A;
@@ -3099,7 +3100,7 @@ p.car-details-about-text{
     font-family: var(--secondary-font);
 }
 .price-list li span{
-    font-size: 16px;
+    font-size: 14px;
     font-weight: 700;
     line-height: 30px;
     color: var(--primary-color);
@@ -3147,7 +3148,7 @@ p.car-details-about-text{
     font-family: var(--primary-font);
 }
 .rating-title-box p{
-    font-size: 16px;
+    font-size: 14px;
     line-height: 30px;
     font-weight: 400;
     color: #000000;
@@ -3169,7 +3170,7 @@ p.car-details-about-text{
 }  
 .rating-progress-box .progress-box .title{
     width: 22%;
-    font-size: 16px;
+    font-size: 14px;
     font-weight: 400;
     line-height: 30px;
     color: #6A6A6A;
@@ -3201,7 +3202,7 @@ p.car-details-about-text{
     justify-content: end;
     flex-shrink: 0;
     gap: 5px;
-    font-size: 16px;
+    font-size: 14px;
     font-weight: 400;
     line-height: 30px;
     color: #6A6A6A;
@@ -3211,7 +3212,6 @@ p.car-details-about-text{
 .comment-inner {
     padding-bottom: 50px;
     margin-bottom: 40px;
-    border-bottom: 1px solid #E5E5E5;
 }
 .comment-inner .comment-box{
     display: flex;
@@ -3253,7 +3253,7 @@ p.car-details-about-text{
     font-family: var(--secondary-font);
 }
 .comment-box .comment-details p{
-    font-size: 16px;
+    font-size: 14px;
     font-weight: 400;
     line-height: 30px;
     color: #6A6A6A;
@@ -3361,7 +3361,7 @@ p.car-details-about-text{
 .comment-form form textarea{
     width: 100%;
     height: 50px;
-    font-size: 16px;
+    font-size: 14px;
     line-height: 26px;
     padding: 12px 20px;
     color: #6A6A6A;
@@ -3396,7 +3396,7 @@ p.car-details-about-text{
 }
 .sidebar-category-list li a{
     position: relative;
-    font-size: 16px;
+    font-size: 14px;
     line-height: 26px;
     font-weight: 400;
     color: var(--primary-color);
@@ -3469,7 +3469,7 @@ p.car-details-about-text{
     font-family: var(--secondary-font);
 }
 .sidebar-post-inner .post .post-text span.post-date i{
-    font-size: 16px;
+    font-size: 14px;
     color: var(--theme-color);
 }
 .gallery-image-list{
@@ -3487,7 +3487,7 @@ p.car-details-about-text{
 }
 .sidebar-archives-list li a{
     position: relative;
-    font-size: 16px;
+    font-size: 14px;
     line-height: 26px;
     font-weight: 400;
     color: var(--primary-color);
@@ -3592,7 +3592,7 @@ p.car-details-about-text{
     margin-bottom: 20px;
 }
 .blog-details-content p.blog-text{
-    font-size: 16px;
+    font-size: 14px;
     line-height: 26px;
     font-weight: 400;
     color: #6A6A6A;
@@ -3629,7 +3629,7 @@ p.car-details-about-text{
     gap: 10px;
 }
 .post-share-box .post-tags li h6{
-    font-size: 16px;
+    font-size: 14px;
     line-height: 26px;
     font-weight: 500;
     color: var(--primary-color);
@@ -3655,7 +3655,7 @@ p.car-details-about-text{
 }
 .post-share-box .post-share li a{
     gap: 20px;
-    font-size: 16px;
+    font-size: 14px;
     color: #6A6A6A;
     display: inline-block;
     transition: all 500ms;
@@ -3684,7 +3684,7 @@ p.car-details-about-text{
     font-family: var(--primary-font);
 }
 .blog-post-content .author-box .designation{
-    font-size: 16px;
+    font-size: 14px;
     font-weight: 400;
     line-height: 26px;
     color: #6A6A6A;
@@ -3723,8 +3723,8 @@ p.car-details-about-text{
     box-shadow: 0 10px 50px rgb(0 0 0 / 8%);
 }
 h4.contact-info-title{
-    font-size: 24px;
-    line-height: 32px;
+    font-size: 18px;
+    line-height: 20px;
     font-weight: 600;
     font-family: var(--primary-font);
     color: #0D0D0D;
@@ -3732,14 +3732,14 @@ h4.contact-info-title{
     margin-bottom: 15px;
 }
 .contact-info-text p{
-    font-size: 16px;
+    font-size: 14px;
     line-height: 32px;
     font-weight: 400;
     color: #6A6A6A;
     font-family: var(--secondary-font);
 }
 .contact-info-text a{
-    font-size: 16px;
+    font-size: 14px;
     line-height: 20px;
     font-weight: 400;
     color: #6A6A6A;
@@ -3758,7 +3758,7 @@ h4.contact-info-title{
 .my-select{
     width: 100%;
     height: 50px;
-    font-size: 16px;
+    font-size: 14px;
     line-height: 26px;
     padding: 12px 20px;
     color: #6A6A6A;
@@ -3781,7 +3781,7 @@ h4.contact-info-title{
 .contact-section .default-form .form-group textarea{
     width: 100%;
     height: 50px;
-    font-size: 16px;
+    font-size: 14px;
     line-height: 26px;
     padding: 12px 20px;
     color: #6A6A6A;

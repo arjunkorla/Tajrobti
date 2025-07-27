@@ -1,0 +1,668 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+
+    <title>Tajrobti Car Reviews</title>
+
+    <link href="assets/css/bootstrap.css" rel="stylesheet">    
+    <link href="assets/css/fontawesome-all.css" rel="stylesheet">  
+    <link href="assets/css/iconfont.css" rel="stylesheet">  
+    <link href="assets/css/owl.css" rel="stylesheet">
+    <link href="assets/css/global.css" rel="stylesheet">
+    <link href="assets/css/jquery.fancybox.min.css" rel="stylesheet">
+    <link href="assets/css/elements-css/header.css" rel="stylesheet">
+    <link href="assets/css/elements-css/footer.css" rel="stylesheet">
+    <link href="assets/css/elements-css/booking-form.css" rel="stylesheet">
+    <link href="assets/language-switcher/polyglot-language-switcher.css" rel="stylesheet" />
+    <link href="assets/css/daterangepicker.css" rel="stylesheet">
+    <link href="assets/css/jquery-ui.css" rel="stylesheet">
+    <link href="assets/css/style.css" rel="stylesheet">
+    <link href="assets/css/responsive.css" rel="stylesheet">
+
+    <!-- Fav Icon -->
+    <link rel="shortcut icon" href="assets/images/favicon.png" type="image/x-icon">
+    <link rel="icon" href="assets/images/favicon.png" type="image/x-icon">
+    <!-- End Fav Icon -->
+
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&amp;display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&amp;display=swap" rel="stylesheet">
+    <!-- End Google Fonts -->
+
+    <!-- Font Awesome for the upload icon -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+<style>
+.upload-wrapper {
+    position: relative;
+    border: 2px dashed #ccc;
+    padding: 5px;
+    text-align: left;
+    cursor: pointer;
+    transition: all 0.3s;
+    border-radius: 8px;
+    background-color: #f9f9f9;
+    display: flex;
+    align-items: center;
+}
+
+.upload-wrapper:hover {
+    border-color: #007bff;
+    background-color: #f1f8ff;
+}
+
+.upload-content {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.upload-wrapper i {
+    font-size: 24px;
+    color: #007bff;
+}
+
+.upload-wrapper span {
+    font-weight: 500;
+    color: #333;
+    font-size: 14px !important;
+}
+
+.upload-wrapper input[type="file"] {
+    opacity: 0;
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    cursor: pointer;
+}
+
+.form-text {
+    font-size: 0.75rem;
+    color: #6c757d;
+    margin-top: -10px;
+}
+
+.nav-tabs .nav-link {
+  border: none;
+  background-color: #f0f0f0;
+  color: #333;
+  border-radius: 5px;
+  font-weight: 500;
+  width: 300px;
+  font-size: 16px;
+}
+.nav-tabs .nav-link.active {
+  background-color: #2C3BFF;
+  color: #fff;
+}
+
+</style>
+
+</head>
+<!-- Page Wrapper -->
+<body class="boxed_wrapper">
+
+
+
+<!--Search Popup-->
+<div id="search-popup" class="search-popup">
+    <div class="popup-inner">
+        <div class="container">
+            <div class="upper-box">
+                <figure class="logo-box"><a href="index.html"><img src="assets/images/logo.png" alt=""></a></figure>
+                <div class="close-search"><span class="fa-solid fa-xmark"></span></div>
+            </div>
+        </div>        
+        <div class="overlay-layer"></div>
+        <div class="container">
+            <div class="search-form">
+                <form method="post" action="#">
+                    <div class="form-group">
+                        <fieldset>
+                            <input type="search" class="form-control" name="search-input" value="" placeholder="Type your keyword and hit" required >
+                            <button type="submit"><i class="icon-50"></i></button>
+                        </fieldset>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+<!--End Search Popup-->
+
+<!-- Main Header -->
+<header class="header home-three">
+    <!-- Header Top -->
+    <div class="header-top-one">
+        <div class="container">
+            <div class="header-top-outer">
+                <div class="header-top-info">
+                    <p><i class="icon-22"></i> +965 12345678</p>
+                </div>
+                <div class="header-top-contact-info">
+                    <ul>
+                        <li><i class="icon-23"></i><a href="#">info@tajrobti.com</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Header Top -->
+
+    <!-- Main Header -->
+    <div class="main_header">
+        <div class="container"> 
+            <div class="main_header_inner">
+                <div class="main_header_logo">
+                    <figure>
+                        <a href="index.html"><img src="assets/images/logo-light.png" alt="Companny Logo"></a>
+                    </figure>
+                </div>
+                <div class="main_header_menu menu_area">
+                    <!--Mobile Navigation Toggler-->
+                    <div class="mobile-nav-toggler">
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </div>
+                    <nav class="main-menu">
+                        <div class="collapse navbar-collapse show" id="navbarSupportedContent">
+                            <ul class="navigation">
+                                <li class="active"><a href="index.html">Home</a></li>
+                                <li class="dropdown"><a href="categories.html">Categories</a>
+                                    <ul>
+                                        <li><a href="categories.html">SUVs</a></li>
+                                        <li><a href="categories.html">Sedans</a></li>
+                                        <li><a href="categories.html">Hatchbacks</a></li>
+                                        <li><a href="categories.html">Electric</a></li>
+                                        <li><a href="categories.html">Luxury</a></li>
+                                        <li><a href="categories.html">Pickup Trucks</a></li>
+                                    </ul>
+                                </li>
+                                <li><a href="about-us.html">About Us</a></li>
+                                <li><a href="news.html">News</a></li>
+                                <li><a href="contact.html">Contact</a></li>
+                            </ul>
+                        </div>
+                    </nav>
+                </div>
+                <div class="header_right_content">
+                    <button class="search-toggler"><i class="fas fa-search"></i></button>
+                    <button class="header-links" onclick="location.href='login.html'">Login/Register</button>
+                    <button class="header-links arabic" onclick="location.href='#'">العربية</button>
+                    <div class="link-btn"><a href="upload.html" class="btn-style-one">Upload Post</a></div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- End Main Header -->
+
+    <!-- Sticky Header-->
+    <div class="sticky_header">
+        <div class="container">
+            <div class="main_header_inner">
+                <div class="main_header_logo">
+                    <figure>
+                        <a href="index.html"><img src="assets/images/logo-light.png" alt="Companny Logo"></a>
+                    </figure>
+                </div>
+                <div class="main_header_menu menu_area">
+                    <nav class="main-menu">
+                        <!--Keep This Empty / Menu will come through Javascript-->
+                    </nav>
+                </div>
+                <div class="header_right_content">
+                    <button class="search-toggler"><i class="fas fa-search"></i></button>
+                    <button class="header-links" onclick="location.href='login.html'">Login/Register</button>
+                    <div class="header-links arabic" onclick="location.href='#'">العربية</div>
+                    <div class="link-btn"><a href="upload.html" class="btn-style-one">Upload Post</a></div>
+                </div>
+            </div>            
+        </div> 
+    </div>
+    <!-- End Sticky Header-->
+
+    <!-- Mobile Menu  -->
+    <div class="mobile-menu">
+        <div class="menu-backdrop"></div>
+        <div class="close-btn">X</div>        
+        <nav class="menu-box">
+            <div class="nav-logo"><a href="index.html"><img src="assets/images/mobile-logo.png" alt="" title=""></a></div>
+            <div class="menu-outer"><!--Here Menu Will Come Automatically Via Javascript / Same Menu as in Header--></div>
+            <div class="contact-info">
+                <h4>Reach Us</h4>
+                <ul>
+                    <li><a href="tel:+965 12345678">+965 12345678</a></li>
+                    <li><a href="mailto:info@example.com">info@tajrobti.com</a></li>
+                </ul>
+            </div>
+            <ul class="social-links centred">
+                <li><a href="#"><span class="fab fa-twitter"></span></a></li>
+                <li><a href="#"><span class="fab fa-facebook-square"></span></a></li>
+                <li><a href="#"><span class="fab fa-pinterest-p"></span></a></li>
+                <li><a href="#"><span class="fab fa-instagram"></span></a></li>
+                <li><a href="#"><span class="fab fa-youtube"></span></a></li>
+            </ul>
+        </nav>
+    </div>
+    <!-- End Mobile Menu -->
+
+</header>
+<!-- End Main Header -->
+
+<!-- Breadcrumb Section -->
+<section class="breadcrumb-section" style="background-image: url(assets/images/background/inner-banner-bg-2.png);">
+    <div class="container">
+        <div class="banner-content">
+            <h1>My Account</h1>
+        </div>
+    </div>
+</section>
+<!-- Breadcrumb Section End -->
+
+<section class="my-account-section ptb-50">
+    <div class="container">
+        <div class="row">
+        <!-- Sidebar -->
+        <div class="sidebar col-lg-4 col-md-4 col-sm-12">
+            <a href="#" onclick="showSection('edit-profile')">Edit Profile</a>
+            <a href="#" onclick="showSection('change-password')">Change Password</a>
+            <a href="#" onclick="showSection('create-post')">Create Post</a>
+            <a href="#" onclick="showSection('edit-post')">Edit Post</a>
+            <a href="index.html">Logout</a>
+        </div>
+    
+        <!-- Main Content -->
+        <div class="main-content col-lg-8 col-md-8 col-sm-12">
+            <!-- Edit Profile -->
+             <h3>Edit Profile</h3>
+
+            <div class="col-lg-6 col-md-6 col-sm-6">
+                
+            </div>
+
+            <div id="edit-profile" class="section active col-lg-6 col-md-6 col-sm-6">
+                
+                <div class="col-lg-6 col-md-6 col-sm-12 form-group">
+                    <input type="text" name="firstname" value="First Name">
+                </div>
+
+                <div class="col-lg-6 col-md-6 col-sm-12 form-group">
+                    <input type="text" name="lastname" value="Last Name">
+                </div>
+
+                <div class="col-lg-6 col-md-6 col-sm-12 form-group">
+                    <input type="text" name="mobile" value="+965 12345678">
+                </div>
+
+                <div class="col-lg-6 col-md-6 col-sm-12 form-group">
+                    <input type="text" name="email" value="mohammed@example.com">
+                </div>
+
+                <div class="col-lg-6 col-md-6 col-sm-12 form-group">
+                    <input type="text" name="date" value="26/10/2026">
+                </div>
+
+                <div class="col-lg-12 col-md-12 col-sm-12 form-group centred">
+                    <button type="submit" class="btn-style-five">Save Profile</button>
+                </div>
+            </div>
+    
+            <!-- Change Password -->
+            <div id="change-password" class="section">
+                <h3>Change Password</h3>
+                <form action="#" method="post" class="default-form">
+                    <div class="row">
+                        <div class="col-lg-6 col-md-6 col-sm-12 form-group">
+                            <input type="password" name="current_password" placeholder="Current Password" required>
+                        </div>
+                        <div class="col-lg-6 col-md-6 col-sm-12 form-group">
+                            <input type="password" name="new_password" placeholder="New Password" required>
+                        </div>
+                        <div class="col-lg-6 col-md-6 col-sm-12 form-group">
+                            <input type="password" name="confirm_password" placeholder="Confirm New Password" required>
+                        </div>
+                        <div class="col-lg-12 col-md-12 col-sm-12 form-group centred">
+                            <button type="submit" class="btn-style-five">Update Password</button>
+                        </div>
+                    </div>
+                </form>
+            </div>
+    
+            <!-- Create Post -->
+            <div id="create-post" class="section">
+                <h3>Create New Post</h3>
+                <form action="#" method="post" class="default-form">
+                    <div class="row">
+                        <div class="col-lg-6 col-md-6 col-sm-12 form-group">
+                            <input type="text" name="name" placeholder="Post Title" required>
+                        </div>
+                        <div class="col-lg-6 col-md-6 col-sm-12 form-group">
+                            <select name="category" class="my-select">
+                                <option value="">Select Category</option>
+                                <option value="SUVs">SUVs</option>
+                                <option value="Sedans">Sedans</option>
+                                <option value="Hatchbacks">Hatchbacks</option>
+                                <option value="Electric">Electric</option>
+                                <option value="Luxury">Luxury</option>
+                                <option value="Pickup Trucks">Pickup Trucks</option>
+                            </select>
+                        </div>
+                
+                        <div class="col-lg-6 col-md-6 col-sm-12 form-group">
+                            <select name="category" class="my-select">
+                                <option value="">Select Car Make</option>
+                                <option value="Toyota">Toyota</option>
+                                <option value="Honda">Honda</option>
+                                <option value="Ford">Ford</option>
+                                <option value="Chevrolet">Chevrolet</option>
+                                <option value="BMW">BMW</option>
+                            </select>
+                        </div>
+                
+                        <div class="col-lg-6 col-md-6 col-sm-12 form-group">
+                            <select name="category" class="my-select">
+                                <option value="">Select Car Model</option>
+                                <option value="Camry">Camry</option>
+                                <option value="Civic">Civic</option>
+                                <option value="Mustang">Mustang</option>
+                                <option value="Malibu">Malibu</option>
+                                <option value="X5">X5</option>
+                            </select>
+                        </div>
+                
+                        <div class="col-lg-6 col-md-6 col-sm-12 form-group">
+                            <select name="category" class="my-select">
+                                <option value="">Year of Manufacture</option>
+                                <option value="2020">2020</option>
+                                <option value="2019">2019</option>
+                                <option value="2018">2018</option>
+                                <option value="2017">2017</option>
+                                <option value="2016">2016</option>
+                            </select>
+                        </div>
+                
+                        <div class="col-lg-6 col-md-6 col-sm-12 form-group">
+                            <select name="category" class="my-select">
+                                <option value="">Select Variant</option>
+                                <option value="Camry">SE</option>
+                                <option value="Civic">EX</option>
+                                <option value="Mustang">GT</option>
+                                <option value="Malibu">LT</option>
+                                <option value="X5">xDrive</option>
+                            </select>
+                        </div>
+                
+                        <div class="col-lg-6 col-md-6 col-sm-12 form-group">
+                            <select name="category" class="my-select">
+                                <option value="">Location</option>
+                                <option value="Hawalli">Hawalli</option>
+                                <option value="Salmiya">Salmiya</option>
+                                <option value="Kuwait City">Kuwait City</option>
+                                <option value="Farwaniya">Farwaniya</option>
+                                <option value="Jahra">Jahra</option>
+                            </select>
+                        </div>
+                
+                        <div class="col-lg-6 col-md-6 col-sm-12 form-group">
+                            <label class="upload-wrapper">
+                                <div class="upload-content">
+                                    <i class="fas fa-upload"></i>
+                                    <span>Upload Media</span>
+                                    <small class="form-text text-muted">Accepted formats: JPG, PNG, MP4 | Max size: 10MB</small>
+                                </div>
+                                <input type="file" name="media_upload" required>
+                            </label>
+                        </div>
+                
+                
+                        <div class="col-lg-12 col-md-12 col-sm-12 form-group">
+                            <textarea name="message" placeholder="Car Details"></textarea>
+                        </div>
+                        <div class="col-lg-12 col-md-12 col-sm-12 form-group centred">
+                            <button type="submit" class="btn-style-five">Upload Post</button>
+                        </div>
+                    </div>
+                </form>
+            </div>
+    
+            <!-- Edit Post -->
+            <div id="edit-post" class="section">
+                <h3>Edit Post</h3>
+                <!-- Same form as create post -->
+
+                <div class="row">
+                    <div class="col-xl-4 col-lg-4 col-md-6 col-sm-12">
+                        <div class="post-container">
+                            <!-- Post Header -->
+                            <div class="post-header">
+                                <img src="assets/images/team/profile.png" alt="User avatar">
+                                <span>t/mohammed • 3 hr ago</span>
+                            </div>
+                            <!-- Title -->
+                            <h5 class="single-featured-car-title"><a href="car-details.html">BMW i5 M60</a></h5>
+                            <!-- Body -->
+                            <div class="post-body">
+                                <p><a href="car-details.html"><img src="assets/images/featured-car/featured-car-5.jpg" alt=""
+                                            class="post_image"></a></p>
+                                <p>The BMW i5 M60 redefines electric performance with its sleek design and cutting-edge technology.</p>
+                            </div>
+                            <!-- Footer with comments, share, and vote -->
+                            <div class="post-footer">
+                                <span><i class="icon"><img src="assets/images/icons/edit.svg" alt=""></i> Edit</span>
+                                <span><i class="icon"><img src="assets/images/icons/delete.svg" alt=""></i> Delete</span>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="col-xl-4 col-lg-4 col-md-6 col-sm-12">
+                        <div class="post-container">
+                            <!-- Post Header -->
+                            <div class="post-header">
+                                <img src="assets/images/team/profile.png" alt="User avatar">
+                                <span>t/mohammed • 3 hr ago</span>
+                            </div>
+                            <!-- Title -->
+                            <h5 class="single-featured-car-title"><a href="car-details.html">Ford Bronco Raptor 2025</a></h5>
+                            <!-- Body -->
+                            <div class="post-body">
+                                <p><a href="car-details.html"><img src="assets/images/featured-car/featured-car-6.jpg" alt=""
+                                            class="post_image"></a></p>
+                                <p>The Ford Bronco Raptor 2025 is built for adventure, combining rugged capability with modern technology.
+                                </p>
+                            </div>
+                            <!-- Footer with comments, share, and vote -->
+                            <div class="post-footer">
+                                <span><i class="icon"><img src="assets/images/icons/edit.svg" alt=""></i> Edit</span>
+                                <span><i class="icon"><img src="assets/images/icons/delete.svg" alt=""></i> Delete</span>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="col-xl-4 col-lg-4 col-md-6 col-sm-12">
+                        <div class="post-container">
+                            <!-- Post Header -->
+                            <div class="post-header">
+                                <img src="assets/images/team/profile.png" alt="User avatar">
+                                <span>t/mohammed • 3 hr ago</span>
+                            </div>
+                            <!-- Title -->
+                            <h5 class="single-featured-car-title"><a href="car-details.html">Volkswagen GTI 2025</a></h5>
+                            <!-- Body -->
+                            <div class="post-body">
+                                <p><a href="car-details.html"><img src="assets/images/featured-car/featured-car-7.jpg" alt=""
+                                            class="post_image"></a></p>
+                                <p>The Volkswagen Golf GTI 2025 is a perfect blend of performance and practicality, for enthusiasts.</p>
+                            </div>
+                            <!-- Footer with comments, share, and vote -->
+                            <div class="post-footer">
+                                <span><i class="icon"><img src="assets/images/icons/edit.svg" alt=""></i> Edit</span>
+                                <span><i class="icon"><img src="assets/images/icons/delete.svg" alt=""></i> Delete</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <form>
+                    <div class="form-group">
+                        <label>Post Title</label>
+                        <input type="text" value="Existing Title" />
+                    </div>
+                    <div class="form-group">
+                        <label>Select Category</label>
+                        <select>
+                            <option selected>For Sale</option>
+                            <option>Wanted</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label>Car Make</label>
+                        <select>
+                            <option selected>Toyota</option>
+                            <option>Honda</option>
+                            <option>Ford</option>
+                            <option>Nissan</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label>Car Model</label>
+                        <input type="text" value="Corolla" />
+                    </div>
+                    <div class="form-group">
+                        <label>Year of Manufacture</label>
+                        <input type="number" value="2021" />
+                    </div>
+                    <div class="form-group">
+                        <label>Variant</label>
+                        <input type="text" value="XLE" />
+                    </div>
+                    <div class="form-group">
+                        <label>Location</label>
+                        <input type="text" value="New York, NY" />
+                    </div>
+                    <div class="form-group">
+                        <label>Upload Car Picture</label>
+                        <input type="file" />
+                    </div>
+                    <div class="form-group">
+                        <label>Car Details</label>
+                        <textarea rows="5">Existing car description...</textarea>
+                    </div>
+                    <div class="form-actions">
+                        <button>Update Post</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+    
+    <script>
+        function showSection(id) {
+            document.querySelectorAll(".section").forEach(section => {
+                section.classList.remove("active");
+            });
+            document.getElementById(id).classList.add("active");
+        }
+    </script>
+        </div>
+</section>
+    
+
+<!-- Main Footer -->
+<footer class="main_footer home-three">
+    <div class="container">
+        <div class="footer-top-outer">
+            <div class="row">
+                <div class="col-xl-3 col-lg-3 col-md-6 col-sm-12">
+                    <div class="footer_widget footer_about_widget">
+                        <figure class="footer_widget_logo">
+                            <a href="index.html"><img src="assets/images/footer-logo.png" alt=""></a>
+                        </figure>
+                        <h6><strong>Follow Us On:</strong></h6>
+                        <ul class="social-links">
+                            <li><a href="#"><i class="fab fa-square-facebook"></i></a></li>
+                            <li><a href="#"><i class="fab fa-square-twitter"></i></a></li>
+                            <li><a href="#"><i class="fab fa-linkedin"></i></a></li>
+                            <li><a href="#"><i class="fab fa-dribbble"></i></a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-xl-3 col-lg-3 col-md-6 col-sm-12">
+                    <div class="footer_widget footer_resources_widget">
+                        <h4 class="footer_widget_title">Resources</h4>
+                        <ul class="resources_page_list">
+                            <li><a href="index.html">Home</a></li>
+                            <li><a href="categories.html">Categories</a></li>
+                            <li><a href="about-us.html">About Us</a></li>
+                            <li><a href="news.html">News</a></li>
+                            <li><a href="contact.html">Contact Us</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-xl-2 col-lg-2 col-md-6 col-sm-12">
+                    <div class="footer_widget footer_community_widget">
+                        <h4 class="footer_widget_title">Community</h4>
+                        <ul class="community_page_list">
+                            <li><a href="login.html">Login/Register</a></li>
+                            <li><a href="#">Reviews</a></li>
+                            <li><a href="#">Testimonials</a></li>
+                            <li><a href="#">Newsletter</a></li>
+                            <li><a href="#">FAQ</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-xl-4 col-lg-4 col-md-6 col-sm-12">
+                    <div class="footer_widget footer_contact_widget">
+                        <h4 class="footer_widget_title">Contact</h4>
+                        <p>Bin-Khaldoon Street, Hawalli, Kuwait City, Kuwait.</p>
+                        <ul class="footer-info-list">
+                            <li><a href="#">info@tajrobti.com</a></li>
+                            <li><a href="#">+965 1234 5678</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom-outer">
+            <div class="copyright">Copyright &copy; 2025 Tajrobti. All Rights Reserved</div>            
+        </div>
+    </div>
+</footer>
+<!-- Main Footer End -->
+
+<!-- Scroll to Top -->
+<button class="scroll-top scroll-to-target" data-target="html">
+    <i class="icon-13"></i>
+</button>
+<!--End Scroll to Top -->
+
+<!-- Include Js -->
+<script src="assets/js/jquery-3.7.1.min.js"></script>
+<script src="assets/js/jquery-ui.js"></script>
+<script src="assets/js/moment.min.js"></script>
+<script src="assets/js/daterangepicker.min.js"></script>
+<script src="assets/js/bootstrap.min.js"></script>
+<script src="assets/js/popper.min.js"></script>
+<script src="assets/js/select2.min.js"></script>
+<script src="assets/js/jquery.nice-select.min.js"></script>
+<script src="assets/js/jquery.fancybox.js"></script>
+<script src="assets/js/appear.js"></script>
+<script src="assets/js/wow.js"></script>
+<script src="assets/js/owl.js"></script>
+<script src="assets/js/isotope.js"></script>
+<script src="assets/js/validation.js"></script>
+<script src="assets/language-switcher/jquery.polyglot.language.switcher.js"></script>
+<script src="assets/js/main.js"></script>
+<script src="assets/js/booking-form.js"></script>
+<!-- End Include Js -->
+
+</body>
+<!-- End Page Wrapper -->
+</html>

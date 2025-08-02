@@ -203,187 +203,375 @@
             <h2 class="title">Featured Cars</h2>
         </div>
         <div class="row">
-            <div class="col-xl-4 col-lg-4 col-md-6 col-sm-12">
-                <div class="post-container">
-                    <!-- Post Header -->
-                    <div class="post-header">
-                        <img src="assets/images/team/profile.png" alt="User avatar">
-                        <span>t/mohammed • 3 hr ago</span>
+            <div class="col-xl-4 col-lg-4 col-md-12 col-sm-12">
+                <div class="product-sidebar mr_30">
+                    <div class="sidebar-search-widget">
+                        <h3 class="sidebar-widget-title">Search</h3>
+                        <div class="sidebar-search-box">
+                            <input type="text" placeholder="Search...">
+                            <button type="submit"><i class="icon-18"></i></button>
+                        </div>
                     </div>
-                    <!-- Title -->
-                    <h5 class="single-featured-car-title"><a href="car-details.html">BMW i5 M60</a></h5>
-                    <!-- Body -->
-                    <div class="post-body">
-                        <p><a href="car-details.html"><img src="assets/images/featured-car/featured-car-5.jpg" alt=""
-                                    class="post_image"></a></p>
-                        <p>The BMW i5 M60 redefines electric performance with its sleek design and cutting-edge
-                            technology.</p>
+                    <div class="sidebar-select-car-widget">
+                        <h3 class="sidebar-widget-title">Select Car</h3>
+                        <div class="filter-box">
+                            <div class="custom-select">
+                                <select id="destination">
+                                    <option value="">Select Destination</option>
+                                    <option value="usa">USA</option>
+                                    <option value="europe">Europe</option>
+                                    <option value="asia">Asia</option>
+                                </select>
+                            </div>
+                            <div class="custom-select">
+                                <select id="type">
+                                    <option value="">Select Type</option>
+                                    <option value="sedan">Sedan</option>
+                                    <option value="suv">SUV</option>
+                                    <option value="hatchback">Hatchback</option>
+                                </select>
+                            </div>
+                            <div class="custom-select">
+                                <select id="brand">
+                                    <option value="">Select Brand</option>
+                                    <option value="toyota">Toyota</option>
+                                    <option value="honda">Honda</option>
+                                    <option value="ford">Ford</option>
+                                </select>
+                            </div>
+                            <div class="custom-select">
+                                <select id="fuel">
+                                    <option value="">Select Fuel</option>
+                                    <option value="petrol">Petrol</option>
+                                    <option value="diesel">Diesel</option>
+                                    <option value="electric">Electric</option>
+                                </select>
+                            </div>                            
+                        </div>                          
                     </div>
-                    <!-- Footer with comments, share, and vote -->
-                    <div class="post-footer">
-                        <span class="vote-section-inline">
-                            <span><img src="assets/images/icons/upvote.svg" alt=""></span>
-                            <span class="vote-count">224</span>
-                            <span><img src="assets/images/icons/downvote.svg" alt=""></span>
-                        </span>
-                        <a href="car-details.html"><span><i class="icon"><img src="assets/images/icons/comment.svg"
-                                        alt=""></i> 558</span></a>
-                        <span><i class="icon"><img src="assets/images/icons/share.svg" alt=""></i> Share</span>
-                        <span><i class="icon"><img src="assets/images/icons/save.svg" alt=""></i></span>
+                    <div class="sidebar-filter-widget">
+                        <h3 class="sidebar-widget-title">Filter by Price</h3>
+                        <div class="price-range-slider">
+                            <div id="slider-range" class="range-bar"></div>
+                            <p class="range-value">
+                                <span>Price:</span>
+                                <input type="text" id="amount" readonly>
+                            </p>
+                            <div class="btn-box">
+                                <button type="button" class="clear-btn">Clear</button>
+                                <button type="button" class="filter-btn btn-style-four">Apply</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="sidebar-capacity-widget">
+                        <h3 class="sidebar-widget-title">Capacity</h3>
+                        <ul class="capacity-list">
+                            <li>
+                                <div class="check-box">
+                                    <input class="check" type="checkbox" id="checkbox1">
+                                    <label for="checkbox1">0-1</label>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="check-box">
+                                    <input class="check" type="checkbox" id="checkbox2">
+                                    <label for="checkbox2">1-2</label>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="check-box">
+                                    <input class="check" type="checkbox" id="checkbox3">
+                                    <label for="checkbox3">2-3</label>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="check-box">
+                                    <input class="check" type="checkbox" id="checkbox4">
+                                    <label for="checkbox4">3-4</label>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="check-box">
+                                    <input class="check" type="checkbox" id="checkbox5">
+                                    <label for="checkbox5">4-5</label>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="check-box">
+                                    <input class="check" type="checkbox" id="checkbox6">
+                                    <label for="checkbox6">5-6</label>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="check-box">
+                                    <input class="check" type="checkbox" id="checkbox7">
+                                    <label for="checkbox7">more</label>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="sidebar-reviews-widget">
+                        <h3 class="sidebar-widget-title">Reviews</h3>
+                        <ul class="reviews-list">
+                            <li>
+                                <div class="check-box">
+                                    <input class="check" type="checkbox" id="checkbox8">
+                                    <label for="checkbox8">
+                                        <ul class="rating-star">
+                                            <li class="rated-star"><i class="fa-solid fa-star"></i></li>
+                                            <li class="rated-star"><i class="fa-solid fa-star"></i></li>
+                                            <li class="rated-star"><i class="fa-solid fa-star"></i></li>
+                                            <li class="rated-star"><i class="fa-solid fa-star"></i></li>
+                                            <li class="rated-star"><i class="fa-solid fa-star"></i></li>
+                                        </ul>
+                                    </label>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="check-box">
+                                    <input class="check" type="checkbox" id="checkbox9">
+                                    <label for="checkbox9">
+                                        <ul class="rating-star">
+                                            <li class="rated-star"><i class="fa-solid fa-star"></i></li>
+                                            <li class="rated-star"><i class="fa-solid fa-star"></i></li>
+                                            <li class="rated-star"><i class="fa-solid fa-star"></i></li>
+                                            <li class="rated-star"><i class="fa-solid fa-star"></i></li>
+                                            <li><i class="fa-solid fa-star"></i></li>
+                                        </ul>
+                                    </label>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="check-box">
+                                    <input class="check" type="checkbox" id="checkbox10">
+                                    <label for="checkbox10">
+                                        <ul class="rating-star">
+                                            <li class="rated-star"><i class="fa-solid fa-star"></i></li>
+                                            <li class="rated-star"><i class="fa-solid fa-star"></i></li>
+                                            <li class="rated-star"><i class="fa-solid fa-star"></i></li>
+                                            <li><i class="fa-solid fa-star"></i></li>
+                                            <li><i class="fa-solid fa-star"></i></li>
+                                        </ul>
+                                    </label>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="check-box">
+                                    <input class="check" type="checkbox" id="checkbox11">
+                                    <label for="checkbox11">
+                                        <ul class="rating-star">
+                                            <li class="rated-star"><i class="fa-solid fa-star"></i></li>
+                                            <li class="rated-star"><i class="fa-solid fa-star"></i></li>
+                                            <li><i class="fa-solid fa-star"></i></li>
+                                            <li><i class="fa-solid fa-star"></i></li>
+                                            <li><i class="fa-solid fa-star"></i></li>
+                                        </ul>
+                                    </label>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="check-box">
+                                    <input class="check" type="checkbox" id="checkbox12">
+                                    <label for="checkbox12">
+                                        <ul class="rating-star">
+                                            <li class="rated-star"><i class="fa-solid fa-star"></i></li>
+                                            <li><i class="fa-solid fa-star"></i></li>
+                                            <li><i class="fa-solid fa-star"></i></li>
+                                            <li><i class="fa-solid fa-star"></i></li>
+                                            <li><i class="fa-solid fa-star"></i></li>
+                                        </ul>
+                                    </label>
+                                </div>
+                            </li>
+                        </ul>
                     </div>
                 </div>
             </div>
-
-            <div class="col-xl-4 col-lg-4 col-md-6 col-sm-12">
-                <div class="post-container">
-                    <!-- Post Header -->
-                    <div class="post-header">
-                        <img src="assets/images/team/team-image-2.png" alt="User avatar">
-                        <span>u/shaik ahmed • 10 hr ago</span>
+            <div class="col-xl-8 col-lg-8 col-md-12 col-sm-12">
+                <div class="row">
+                    <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12">
+                        <div class="post-container">
+                            <!-- Post Header -->
+                            <div class="post-header">
+                                <img src="assets/images/team/profile.png" alt="User avatar">
+                                <span>t/mohammed • 3 hr ago</span>
+                            </div>
+                            <!-- Title -->
+                            <h5 class="single-featured-car-title"><a href="car-details.html">BMW i5 M60</a></h5>
+                            <!-- Body -->
+                            <div class="post-body">
+                                <p><a href="car-details.html"><img src="assets/images/featured-car/featured-car-5.jpg" alt=""
+                                            class="post_image"></a></p>
+                                <p>The BMW i5 M60 redefines electric performance with its sleek design and cutting-edge
+                                    technology.</p>
+                            </div>
+                            <!-- Footer with comments, share, and vote -->
+                            <div class="post-footer">
+                                <span class="vote-section-inline">
+                                    <span><img src="assets/images/icons/upvote.svg" alt=""></span>
+                                    <span class="vote-count">224</span>
+                                    <span><img src="assets/images/icons/downvote.svg" alt=""></span>
+                                </span>
+                                <a href="car-details.html"><span><i class="icon"><img src="assets/images/icons/comment.svg"
+                                                alt=""></i> 558</span></a>
+                                <span><i class="icon"><img src="assets/images/icons/share.svg" alt=""></i> Share</span>
+                                <span><i class="icon"><img src="assets/images/icons/save.svg" alt=""></i></span>
+                            </div>
+                        </div>
                     </div>
-                    <!-- Title -->
-                    <h5 class="single-featured-car-title"><a href="car-details.html">Ford Bronco Raptor 2025</a></h5>
-                    <!-- Body -->
-                    <div class="post-body">
-                        <p><a href="car-details.html"><img src="assets/images/featured-car/featured-car-6.jpg" alt=""
-                                    class="post_image"></a></p>
-                        <p>The Ford Bronco Raptor 2025 is built for adventure, combining rugged capability with modern
-                            technology.</p>
+            
+                    <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12">
+                        <div class="post-container">
+                            <!-- Post Header -->
+                            <div class="post-header">
+                                <img src="assets/images/team/team-image-2.png" alt="User avatar">
+                                <span>u/shaik ahmed • 10 hr ago</span>
+                            </div>
+                            <!-- Title -->
+                            <h5 class="single-featured-car-title"><a href="car-details.html">Ford Bronco Raptor 2025</a></h5>
+                            <!-- Body -->
+                            <div class="post-body">
+                                <p><a href="car-details.html"><img src="assets/images/featured-car/featured-car-6.jpg" alt=""
+                                            class="post_image"></a></p>
+                                <p>The Ford Bronco Raptor 2025 is built for adventure, combining rugged capability with modern
+                                    technology.</p>
+                            </div>
+                            <!-- Footer with comments, share, and vote -->
+                            <div class="post-footer">
+                                <span class="vote-section-inline">
+                                    <span><img src="assets/images/icons/upvote.svg" alt=""></span>
+                                    <span class="vote-count">291</span>
+                                    <span><img src="assets/images/icons/downvote.svg" alt=""></span>
+                                </span>
+                                <span><a href="car-details.html"><i class="icon"><img src="assets/images/icons/comment.svg"
+                                                alt=""></i> 478</span></a>
+                                <span><i class="icon"><img src="assets/images/icons/share.svg" alt=""></i> Share</span>
+                                <span><i class="icon"><img src="assets/images/icons/save.svg" alt=""></i></span>
+                            </div>
+                        </div>
                     </div>
-                    <!-- Footer with comments, share, and vote -->
-                    <div class="post-footer">
-                        <span class="vote-section-inline">
-                            <span><img src="assets/images/icons/upvote.svg" alt=""></span>
-                            <span class="vote-count">291</span>
-                            <span><img src="assets/images/icons/downvote.svg" alt=""></span>
-                        </span>
-                        <span><a href="car-details.html"><i class="icon"><img src="assets/images/icons/comment.svg"
-                                        alt=""></i> 478</span></a>
-                        <span><i class="icon"><img src="assets/images/icons/share.svg" alt=""></i> Share</span>
-                        <span><i class="icon"><img src="assets/images/icons/save.svg" alt=""></i></span>
+            
+                    <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12">
+                        <div class="post-container">
+                            <!-- Post Header -->
+                            <div class="post-header">
+                                <img src="assets/images/team/team-image-8.png" alt="User avatar">
+                                <span>f/fahad • 18 hr ago</span>
+                            </div>
+                            <!-- Title -->
+                            <h5 class="single-featured-car-title"><a href="car-details.html">Volkswagen GTI 2025</a></h5>
+                            <!-- Body -->
+                            <div class="post-body">
+                                <p><a href="car-details.html"><img src="assets/images/featured-car/featured-car-7.jpg" alt=""
+                                            class="post_image"></a></p>
+                                <p>The Volkswagen Golf GTI 2025 is a perfect blend of performance and practicality, for
+                                    enthusiasts.</p>
+                            </div>
+                            <!-- Footer with comments, share, and vote -->
+                            <div class="post-footer">
+                                <span class="vote-section-inline">
+                                    <span><img src="assets/images/icons/upvote.svg" alt=""></span>
+                                    <span class="vote-count">386</span>
+                                    <span><img src="assets/images/icons/downvote.svg" alt=""></span>
+                                </span>
+                                <span><a href="car-details.html"><i class="icon"><img src="assets/images/icons/comment.svg"
+                                                alt=""></i> 663</span></a>
+                                <span><i class="icon"><img src="assets/images/icons/share.svg" alt=""></i> Share</span>
+                                <span><i class="icon"><img src="assets/images/icons/save.svg" alt=""></i></span>
+                            </div>
+                        </div>
                     </div>
-                </div>
-            </div>
-
-            <div class="col-xl-4 col-lg-4 col-md-6 col-sm-12">
-                <div class="post-container">
-                    <!-- Post Header -->
-                    <div class="post-header">
-                        <img src="assets/images/team/team-image-8.png" alt="User avatar">
-                        <span>f/fahad • 18 hr ago</span>
+            
+                    <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12">
+                        <div class="post-container">
+                            <!-- Post Header -->
+                            <div class="post-header">
+                                <img src="assets/images/team/team-image-7.png" alt="User avatar">
+                                <span>s/khaled • 23 hr ago</span>
+                            </div>
+                            <!-- Title -->
+                            <h5 class="single-featured-car-title"><a href="car-details.html">Jeep Grand L 2025</a></h5>
+                            <!-- Body -->
+                            <div class="post-body">
+                                <p><a href="car-details.html"><img src="assets/images/featured-car/featured-car-8.jpg" alt=""
+                                            class="post_image"></a></p>
+                                <p>The Jeep Grand L 2025 offers a spacious interior and advanced technology, adventurers alike.
+                                </p>
+                            </div>
+                            <!-- Footer with comments, share, and vote -->
+                            <div class="post-footer">
+                                <span class="vote-section-inline">
+                                    <span><img src="assets/images/icons/upvote.svg" alt=""></span>
+                                    <span class="vote-count">997</span>
+                                    <span><img src="assets/images/icons/downvote.svg" alt=""></span>
+                                </span>
+                                <span><a href="car-details.html"><i class="icon"><img src="assets/images/icons/comment.svg"
+                                                alt=""></i> 785</span></a>
+                                <span><i class="icon"><img src="assets/images/icons/share.svg" alt=""></i> Share</span>
+                                <span><i class="icon"><img src="assets/images/icons/save.svg" alt=""></i></span>
+                            </div>
+                        </div>
                     </div>
-                    <!-- Title -->
-                    <h5 class="single-featured-car-title"><a href="car-details.html">Volkswagen GTI 2025</a></h5>
-                    <!-- Body -->
-                    <div class="post-body">
-                        <p><a href="car-details.html"><img src="assets/images/featured-car/featured-car-7.jpg" alt=""
-                                    class="post_image"></a></p>
-                        <p>The Volkswagen Golf GTI 2025 is a perfect blend of performance and practicality, for
-                            enthusiasts.</p>
+            
+                    <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12">
+                        <div class="post-container">
+                            <!-- Post Header -->
+                            <div class="post-header">
+                                <img src="assets/images/team/team-image-6.png" alt="User avatar">
+                                <span>d/abdulaziz • 3d ago</span>
+                            </div>
+                            <!-- Title -->
+                            <h5 class="single-featured-car-title"><a href="car-details.html">BMW 7 Series 2025</a></h5>
+                            <!-- Body -->
+                            <div class="post-body">
+                                <p><a href="car-details.html"><img src="assets/images/featured-car/featured-car-9.jpg" alt=""
+                                            class="post_image"></a></p>
+                                <p>Executive class, reimagined. The new 7 Series is luxury, intelligence, commanding sedan.</p>
+                            </div>
+                            <!-- Footer with comments, share, and vote -->
+                            <div class="post-footer">
+                                <span class="vote-section-inline">
+                                    <span><img src="assets/images/icons/upvote.svg" alt=""></span>
+                                    <span class="vote-count">259</span>
+                                    <span><img src="assets/images/icons/downvote.svg" alt=""></span>
+                                </span>
+                                <span><a href="car-details.html"><i class="icon"><img src="assets/images/icons/comment.svg"
+                                                alt=""></i> 253</span></a>
+                                <span><i class="icon"><img src="assets/images/icons/share.svg" alt=""></i> Share</span>
+                                <span><i class="icon"><img src="assets/images/icons/save.svg" alt=""></i></span>
+                            </div>
+                        </div>
                     </div>
-                    <!-- Footer with comments, share, and vote -->
-                    <div class="post-footer">
-                        <span class="vote-section-inline">
-                            <span><img src="assets/images/icons/upvote.svg" alt=""></span>
-                            <span class="vote-count">386</span>
-                            <span><img src="assets/images/icons/downvote.svg" alt=""></span>
-                        </span>
-                        <span><a href="car-details.html"><i class="icon"><img src="assets/images/icons/comment.svg"
-                                        alt=""></i> 663</span></a>
-                        <span><i class="icon"><img src="assets/images/icons/share.svg" alt=""></i> Share</span>
-                        <span><i class="icon"><img src="assets/images/icons/save.svg" alt=""></i></span>
-                    </div>
-                </div>
-            </div>
-
-            <div class="col-xl-4 col-lg-4 col-md-6 col-sm-12">
-                <div class="post-container">
-                    <!-- Post Header -->
-                    <div class="post-header">
-                        <img src="assets/images/team/team-image-7.png" alt="User avatar">
-                        <span>s/khaled • 23 hr ago</span>
-                    </div>
-                    <!-- Title -->
-                    <h5 class="single-featured-car-title"><a href="car-details.html">Jeep Grand L 2025</a></h5>
-                    <!-- Body -->
-                    <div class="post-body">
-                        <p><a href="car-details.html"><img src="assets/images/featured-car/featured-car-8.jpg" alt=""
-                                    class="post_image"></a></p>
-                        <p>The Jeep Grand L 2025 offers a spacious interior and advanced technology, adventurers alike.
-                        </p>
-                    </div>
-                    <!-- Footer with comments, share, and vote -->
-                    <div class="post-footer">
-                        <span class="vote-section-inline">
-                            <span><img src="assets/images/icons/upvote.svg" alt=""></span>
-                            <span class="vote-count">997</span>
-                            <span><img src="assets/images/icons/downvote.svg" alt=""></span>
-                        </span>
-                        <span><a href="car-details.html"><i class="icon"><img src="assets/images/icons/comment.svg"
-                                        alt=""></i> 785</span></a>
-                        <span><i class="icon"><img src="assets/images/icons/share.svg" alt=""></i> Share</span>
-                        <span><i class="icon"><img src="assets/images/icons/save.svg" alt=""></i></span>
-                    </div>
-                </div>
-            </div>
-
-            <div class="col-xl-4 col-lg-4 col-md-6 col-sm-12">
-                <div class="post-container">
-                    <!-- Post Header -->
-                    <div class="post-header">
-                        <img src="assets/images/team/team-image-6.png" alt="User avatar">
-                        <span>d/abdulaziz • 3d ago</span>
-                    </div>
-                    <!-- Title -->
-                    <h5 class="single-featured-car-title"><a href="car-details.html">BMW 7 Series 2025</a></h5>
-                    <!-- Body -->
-                    <div class="post-body">
-                        <p><a href="car-details.html"><img src="assets/images/featured-car/featured-car-9.jpg" alt=""
-                                    class="post_image"></a></p>
-                        <p>Executive class, reimagined. The new 7 Series is luxury, intelligence, commanding sedan.</p>
-                    </div>
-                    <!-- Footer with comments, share, and vote -->
-                    <div class="post-footer">
-                        <span class="vote-section-inline">
-                            <span><img src="assets/images/icons/upvote.svg" alt=""></span>
-                            <span class="vote-count">259</span>
-                            <span><img src="assets/images/icons/downvote.svg" alt=""></span>
-                        </span>
-                        <span><a href="car-details.html"><i class="icon"><img src="assets/images/icons/comment.svg"
-                                        alt=""></i> 253</span></a>
-                        <span><i class="icon"><img src="assets/images/icons/share.svg" alt=""></i> Share</span>
-                        <span><i class="icon"><img src="assets/images/icons/save.svg" alt=""></i></span>
-                    </div>
-                </div>
-            </div>
-
-            <div class="col-xl-4 col-lg-4 col-md-6 col-sm-12">
-                <div class="post-container">
-                    <!-- Post Header -->
-                    <div class="post-header">
-                        <img src="assets/images/team/profile.png" alt="User avatar">
-                        <span>k/hassan • 12d ago</span>
-                    </div>
-                    <!-- Title -->
-                    <h5 class="single-featured-car-title"><a href="car-details.html">BMW i5 M60</a></h5>
-                    <!-- Body -->
-                    <div class="post-body">
-                        <p><a href="car-details.html"><img src="assets/images/featured-car/featured-car-5.jpg" alt=""
-                                    class="post_image"></a></p>
-                        <p>The BMW i5 M60 redefines electric performance with its sleek design and cutting-edge
-                            technology.</p>
-                    </div>
-                    <!-- Footer with comments, share, and vote -->
-                    <div class="post-footer">
-                        <span class="vote-section-inline">
-                            <span><img src="assets/images/icons/upvote.svg" alt=""></span>
-                            <span class="vote-count">330</span>
-                            <span><img src="assets/images/icons/downvote.svg" alt=""></span>
-                        </span>
-                        <span><a href="car-details.html"><i class="icon"><img src="assets/images/icons/comment.svg"
-                                        alt=""></i> 112</span></a>
-                        <span><i class="icon"><img src="assets/images/icons/share.svg" alt=""></i> Share</span>
-                        <span><i class="icon"><img src="assets/images/icons/save.svg" alt=""></i></span>
+            
+                    <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12">
+                        <div class="post-container">
+                            <!-- Post Header -->
+                            <div class="post-header">
+                                <img src="assets/images/team/profile.png" alt="User avatar">
+                                <span>k/hassan • 12d ago</span>
+                            </div>
+                            <!-- Title -->
+                            <h5 class="single-featured-car-title"><a href="car-details.html">BMW i5 M60</a></h5>
+                            <!-- Body -->
+                            <div class="post-body">
+                                <p><a href="car-details.html"><img src="assets/images/featured-car/featured-car-5.jpg" alt=""
+                                            class="post_image"></a></p>
+                                <p>The BMW i5 M60 redefines electric performance with its sleek design and cutting-edge
+                                    technology.</p>
+                            </div>
+                            <!-- Footer with comments, share, and vote -->
+                            <div class="post-footer">
+                                <span class="vote-section-inline">
+                                    <span><img src="assets/images/icons/upvote.svg" alt=""></span>
+                                    <span class="vote-count">330</span>
+                                    <span><img src="assets/images/icons/downvote.svg" alt=""></span>
+                                </span>
+                                <span><a href="car-details.html"><i class="icon"><img src="assets/images/icons/comment.svg"
+                                                alt=""></i> 112</span></a>
+                                <span><i class="icon"><img src="assets/images/icons/share.svg" alt=""></i> Share</span>
+                                <span><i class="icon"><img src="assets/images/icons/save.svg" alt=""></i></span>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>

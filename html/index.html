@@ -37,10 +37,7 @@
 </head>
 
 <!-- Page Wrapper -->
-
 <body class="boxed_wrapper">
-
-
 
     <!--Search Popup-->
     <div id="search-popup" class="search-popup">
@@ -109,7 +106,7 @@
                             <div class="collapse navbar-collapse show" id="navbarSupportedContent">
                                 <ul class="navigation">
                                     <li class="active"><a href="index.html">Home</a></li>
-                                    <li class="dropdown"><a href="categories.html">Categories</a>
+                                    <li class="dropdown"><a href="categories.html">Browse Cars</a>
                                         <ul>
                                             <li><a href="categories.html">SUVs</a></li>
                                             <li><a href="categories.html">Sedans</a></li>
@@ -155,7 +152,7 @@
                     <div class="header_right_content">
                         <button class="search-toggler"><i class="fas fa-search"></i></button>
                         <button class="header-links" onclick="location.href='login.html'">Login/Register</button>
-                        <a href="#"><img src="assets/images/icons/google.svg" alt="Login with Google"></a>
+                        <button tool-tip="Login with Google" onclick="location.href='login.html'"><img src="assets/images/icons/google.svg" alt=""></button>
                         <div class="header-links arabic" onclick="location.href='#'">العربية</div>
                         <div class="link-btn"><a href="upload.html" class="btn-style-one">Upload Post</a></div>
                     </div>
@@ -233,112 +230,47 @@
                                         <div class="single-search-box">
                                             <div class="icon"><i class="icon-24"></i></div>
                                             <div class="searchbox-input">
-                                                <label>Your Destination</label>
+                                                <label>Make</label>
                                                 <div class="custom-select-dropdown">
                                                     <div class="select-input">
-                                                        <input type="text" readonly value="Bangladesh" />
+                                                        <input type="text" readonly value="BMW" />
                                                         <i class="fas fa-angle-down"></i>
                                                     </div>
                                                     <div class="custom-select-wrap">
-                                                        <div class="custom-select-search-area">
-                                                            <i class="fas fa-magnifying-glass"></i>
-                                                            <input type="text" placeholder="Type Your Destination" />
-                                                        </div>
                                                         <ul class="option-list">
                                                             <li>
                                                                 <div class="destination">
-                                                                    <h6>Bangladesh</h6>
-                                                                    <p>Dhaka, Cox's Bazar, Sylhet</p>
-                                                                </div>
-                                                                <div class="tour">
-                                                                    <span>
-                                                                        50 <br />
-                                                                        Tour
-                                                                    </span>
+                                                                    <h6>Ford</h6>
                                                                 </div>
                                                             </li>
                                                             <li>
                                                                 <div class="destination">
-                                                                    <h6>Nepal</h6>
-                                                                    <p>KATHMANDU, POKHARA</p>
-                                                                </div>
-                                                                <div class="tour">
-                                                                    <span>
-                                                                        30 <br />
-                                                                        Tour
-                                                                    </span>
+                                                                    <h6>Benze</h6>
                                                                 </div>
                                                             </li>
                                                             <li>
                                                                 <div class="destination">
-                                                                    <h6>India</h6>
-                                                                    <p>Delhi, Agra, Himachal</p>
-                                                                </div>
-                                                                <div class="tour">
-                                                                    <span>
-                                                                        30 <br />
-                                                                        Tour
-                                                                    </span>
+                                                                    <h6>Toyota</h6>
                                                                 </div>
                                                             </li>
                                                             <li>
                                                                 <div class="destination">
-                                                                    <h6>Brazil</h6>
-                                                                    <p>Sao Paulo, Salvador, Bonito</p>
-                                                                </div>
-                                                                <div class="tour">
-                                                                    <span>
-                                                                        20 <br />
-                                                                        Tour
-                                                                    </span>
+                                                                    <h6>Honda</h6>
                                                                 </div>
                                                             </li>
                                                             <li>
                                                                 <div class="destination">
-                                                                    <h6>Thailand</h6>
-                                                                    <p>Bangkok, Phuket, Trang</p>
-                                                                </div>
-                                                                <div class="tour">
-                                                                    <span>
-                                                                        40 <br />
-                                                                        Tour
-                                                                    </span>
+                                                                    <h6>Nissan</h6>
                                                                 </div>
                                                             </li>
                                                             <li>
                                                                 <div class="destination">
-                                                                    <h6>Span</h6>
-                                                                    <p>Barcelona, Madrid</p>
-                                                                </div>
-                                                                <div class="tour">
-                                                                    <span>
-                                                                        20 <br />
-                                                                        Tour
-                                                                    </span>
+                                                                    <h6>Hyundai</h6>
                                                                 </div>
                                                             </li>
                                                             <li>
                                                                 <div class="destination">
-                                                                    <h6>Dubai</h6>
-                                                                    <p>Abu Dhabi, Burj Khalifa</p>
-                                                                </div>
-                                                                <div class="tour">
-                                                                    <span>
-                                                                        35 <br />
-                                                                        Tour
-                                                                    </span>
-                                                                </div>
-                                                            </li>
-                                                            <li>
-                                                                <div class="destination">
-                                                                    <h6>United States</h6>
-                                                                    <p>New York, Las Vegas, Colorado</p>
-                                                                </div>
-                                                                <div class="tour">
-                                                                    <span>
-                                                                        45 <br />
-                                                                        Tour
-                                                                    </span>
+                                                                    <h6>Chevrolet</h6>
                                                                 </div>
                                                             </li>
                                                         </ul>
@@ -349,13 +281,52 @@
                                     </div>
                                     <div class="col-xl-3 col-md-6 col-sm-12 divider">
                                         <div class="single-search-box">
-                                            <div class="icon"><i class="icon-25"></i></div>
+                                            <div class="icon"><i class="icon-24"></i></div>
                                             <div class="searchbox-input">
-                                                <label>When to Start</label>
+                                                <label>Model</label>
                                                 <div class="custom-select-dropdown">
                                                     <div class="select-input">
-                                                        <input type="text" name="inOut" readonly value="" />
+                                                        <input type="text" readonly value="i5 M60" />
                                                         <i class="fas fa-angle-down"></i>
+                                                    </div>
+                                                    <div class="custom-select-wrap">
+                                                        <ul class="option-list">
+                                                            <li>
+                                                                <div class="destination">
+                                                                    <h6>i5 M60</h6>
+                                                                </div>
+                                                            </li>
+                                                            <li>
+                                                                <div class="destination">
+                                                                    <h6>7 Series</h6>
+                                                                </div>
+                                                            </li>
+                                                            <li>
+                                                                <div class="destination">
+                                                                    <h6>X5</h6>
+                                                                </div>
+                                                            </li>
+                                                            <li>
+                                                                <div class="destination">
+                                                                    <h6>i4</h6>
+                                                                </div>
+                                                            </li>
+                                                            <li>
+                                                                <div class="destination">
+                                                                    <h6>M3</h6>
+                                                                </div>
+                                                            </li>
+                                                            <li>
+                                                                <div class="destination">
+                                                                    <h6>X7</h6>
+                                                                </div>
+                                                            </li>
+                                                            <li>
+                                                                <div class="destination">
+                                                                    <h6>iX</h6>
+                                                                </div>
+                                                            </li>
+                                                        </ul>
                                                     </div>
                                                 </div>
                                             </div>
@@ -363,50 +334,77 @@
                                     </div>
                                     <div class="col-xl-3 col-md-6 col-sm-12 divider">
                                         <div class="single-search-box">
-                                            <div class="icon"><i class="icon-26"></i></div>
+                                            <div class="icon"><i class="icon-24"></i></div>
                                             <div class="searchbox-input">
-                                                <label>When to Finish</label>
+                                                <label>Type</label>
                                                 <div class="custom-select-dropdown">
                                                     <div class="select-input">
-                                                        <input type="text" name="inOut" readonly value="Sep 20" />
+                                                        <input type="text" readonly value="Sedan" />
                                                         <i class="fas fa-angle-down"></i>
+                                                    </div>
+                                                    <div class="custom-select-wrap">
+                                                        <ul class="option-list">
+                                                            <li>
+                                                                <div class="destination">
+                                                                    <h6>Hatchback</h6>
+                                                                </div>
+                                                            </li>
+                                                            <li>
+                                                                <div class="destination">
+                                                                    <h6>Truck</h6>
+                                                                </div>
+                                                            </li>
+                                                            <li>
+                                                                <div class="destination">
+                                                                    <h6>Sports Car</h6>
+                                                                </div>
+                                                            </li>
+                                                            <li>
+                                                                <div class="destination">
+                                                                    <h6>SUV</h6>
+                                                                </div>
+                                                            </li>
+                                                        </ul>
                                                     </div>
                                                 </div>
                                             </div>
                                         </div>
                                     </div>
-                                    <div class="col-xl-3 col-md-6 col-sm-12">
+                                    <div class="col-xl-3 col-md-6 col-sm-12 divider">
                                         <div class="single-search-box">
-                                            <div class="icon"><i class="icon-27"></i></div>
+                                            <div class="icon"><i class="icon-24"></i></div>
                                             <div class="searchbox-input">
-                                                <label>People</label>
+                                                <label>Specific</label>
                                                 <div class="custom-select-dropdown">
                                                     <div class="select-input">
-                                                        <h6><span id="adult-qty">1</span> Adults, <span id="child-qty">0</span> Child</h6>
+                                                        <input type="text" readonly value="450HP" />
                                                         <i class="fas fa-angle-down"></i>
                                                     </div>
-                                                    <div class="custom-select-wrap two no-scroll">
-                                                        <ul class="guest-count">
-                                                            <li class="single-item">
-                                                                <div class="title">
-                                                                    <h6>Adult</h6>
-                                                                    <span>17 years+</span>
-                                                                </div>
-                                                                <div class="quantity-counter">
-                                                                    <a href="#" data-type="adult" class="guest-quantity__minus"><i class="fas fa-minus"></i></a>
-                                                                    <input name="adult_quantity" type="text" class="quantity__input" value="1" />
-                                                                    <a href="#" data-type="adult" class="guest-quantity__plus"><i class="fas fa-plus"></i></a>
+                                                    <div class="custom-select-wrap">
+                                                        <ul class="option-list">
+                                                            <li>
+                                                                <div class="destination">
+                                                                    <h6>V8</h6>
                                                                 </div>
                                                             </li>
-                                                            <li class="single-item">
-                                                                <div class="title">
-                                                                    <h6>Children</h6>
-                                                                    <span>0-17 years</span>
+                                                            <li>
+                                                                <div class="destination">
+                                                                    <h6>AWD</h6>
                                                                 </div>
-                                                                <div class="quantity-counter">
-                                                                    <a href="#" data-type="child" class="guest-quantity__minus"><i class="fas fa-minus"></i></a>
-                                                                    <input name="child_quantity" type="text" class="quantity__input" value="0" />
-                                                                    <a href="#" data-type="child" class="guest-quantity__plus"><i class="fas fa-plus"></i></a>
+                                                            </li>
+                                                            <li>
+                                                                <div class="destination">
+                                                                    <h6>0-100km/h: 4.5s</h6>
+                                                                </div>
+                                                            </li>
+                                                            <li>
+                                                                <div class="destination">
+                                                                    <h6>Engine: 450HP</h6>
+                                                                </div>
+                                                            </li>
+                                                            <li>
+                                                                <div class="destination">
+                                                                    <h6>Top Speed: 250km/h</h6>
                                                                 </div>
                                                             </li>
                                                         </ul>
@@ -427,7 +425,7 @@
 </section>
 
     <!-- Booking Section -->
-    <section>
+    <section class="pt_60">
         <div class="container">
             <div class="row">
                 <div class="col-lg-12 col-md-12 col-sm-12">
@@ -437,72 +435,69 @@
         </div>
     </section>
 
-    <!-- Car Type Section -->
-    <section class="car-type-section ptb-50 home-three">
+    <section class="brand-section pt_120 pb_120">
         <div class="container">
-            <div class="section-title centred mb_60">
-                <span class="sub-title">Car Categories</span>
-                <h2 class="title">Explore Car Categories</h2>
+            <div class="section-title-box">
+                <div class="section-title">
+                    <span class="sub-title">Brands</span>
+                    <h2 class="title">Explore Premium Car Brands</h2>
+                </div>
+                <div class="show-all-btn">
+                    <a href="#" class="btn-style-three">Show all Brands</a>
+                </div>
             </div>
-            <div class="car-type-outer-box">
-                <div class="car-type-item">
-                    <div class="car-image">
-                        <img src="assets/images/car-type/car-1.png" alt="">
-                        <div class="shape"><img src="assets/images/shape/shape-2.png" alt=""></div>
+            <div class="brand-outer-box">
+                <div class="single-brand-item animate__backInUp">
+                    <div class="brand-image">
+                        <img src="assets/images/brands/audi.png" alt="">
                     </div>
-                    <div class="car-name">
-                        <h6><a href="#">Vintage Cars</a></h6>
-                    </div>
-                </div>
-                <div class="car-type-item">
-                    <div class="car-image">
-                        <img src="assets/images/car-type/car-2.png" alt="">
-                        <div class="shape"><img src="assets/images/shape/shape-2.png" alt=""></div>
-                    </div>
-                    <div class="car-name">
-                        <h6><a href="#">Luxury Sedan</a></h6>
+                    <div class="brand-title">
+                        <h6><a href="#">Audi</a></h6>
                     </div>
                 </div>
-                <div class="car-type-item">
-                    <div class="car-image">
-                        <img src="assets/images/car-type/car-3.png" alt="">
-                        <div class="shape"><img src="assets/images/shape/shape-2.png" alt=""></div>
+                <div class="single-brand-item animate__backInUp">
+                    <div class="brand-image">
+                        <img src="assets/images/brands/bmw.png" alt="">
                     </div>
-                    <div class="car-name">
-                        <h6><a href="#">SUV</a></h6>
-                    </div>
-                </div>
-                <div class="car-type-item">
-                    <div class="car-image">
-                        <img src="assets/images/car-type/car-4.png" alt="">
-                        <div class="shape"><img src="assets/images/shape/shape-2.png" alt=""></div>
-                    </div>
-                    <div class="car-name">
-                        <h6><a href="#">Truck</a></h6>
+                    <div class="brand-title">
+                        <h6><a href="#">BMW</a></h6>
                     </div>
                 </div>
-                <div class="car-type-item">
-                    <div class="car-image">
-                        <img src="assets/images/car-type/car-5.png" alt="">
-                        <div class="shape"><img src="assets/images/shape/shape-2.png" alt=""></div>
+                <div class="single-brand-item">
+                    <div class="brand-image">
+                        <img src="assets/images/brands/mercedes-benz.png" alt="">
                     </div>
-                    <div class="car-name">
-                        <h6><a href="#">Hatchback</a></h6>
+                    <div class="brand-title">
+                        <h6><a href="#">Mercedes Benz</a></h6>
                     </div>
                 </div>
-                <div class="car-type-item">
-                    <div class="car-image">
-                        <img src="assets/images/car-type/car-6.png" alt="">
-                        <div class="shape"><img src="assets/images/shape/shape-2.png" alt=""></div>
+                <div class="single-brand-item">
+                    <div class="brand-image">
+                        <img src="assets/images/brands/tesla-motors.png" alt="">
                     </div>
-                    <div class="car-name">
-                        <h6><a href="#">Luxury Sports</a></h6>
+                    <div class="brand-title">
+                        <h6><a href="#">Tesla Motors</a></h6>
+                    </div>
+                </div>
+                <div class="single-brand-item">
+                    <div class="brand-image">
+                        <img src="assets/images/brands/volkswagen.png" alt="">
+                    </div>
+                    <div class="brand-title">
+                        <h6><a href="#">Volkswagen</a></h6>
+                    </div>
+                </div>
+                <div class="single-brand-item">
+                    <div class="brand-image">
+                        <img src="assets/images/brands/porsche.png" alt="">
+                    </div>
+                    <div class="brand-title">
+                        <h6><a href="#">Porsche</a></h6>
                     </div>
                 </div>
             </div>
         </div>
     </section>
-    <!-- Car Type Section End -->
 
     <!-- Featured Cars Section -->
     <section class="featured-car-section ptb-50"
@@ -685,7 +680,72 @@
     </section>
     <!-- Featured Cars Section End -->
 
-
+    <!-- Car Type Section -->
+    <section class="car-type-section pt_60 pb_40 home-three">
+        <div class="container">
+            <div class="section-title centred mb_60">
+                <span class="sub-title">Car Categories</span>
+                <h2 class="title">Explore Car Categories</h2>
+            </div>
+            <div class="car-type-outer-box">
+                <div class="car-type-item">
+                    <div class="car-image">
+                        <img src="assets/images/car-type/car-1.png" alt="">
+                        <div class="shape"><img src="assets/images/shape/shape-2.png" alt=""></div>
+                    </div>
+                    <div class="car-name">
+                        <h6><a href="#">Truck</a></h6>
+                    </div>
+                </div>
+                <div class="car-type-item">
+                    <div class="car-image">
+                        <img src="assets/images/car-type/car-2.png" alt="">
+                        <div class="shape"><img src="assets/images/shape/shape-2.png" alt=""></div>
+                    </div>
+                    <div class="car-name">
+                        <h6><a href="#">Luxury Sedan</a></h6>
+                    </div>
+                </div>
+                <div class="car-type-item">
+                    <div class="car-image">
+                        <img src="assets/images/car-type/car-3.png" alt="">
+                        <div class="shape"><img src="assets/images/shape/shape-2.png" alt=""></div>
+                    </div>
+                    <div class="car-name">
+                        <h6><a href="#">Sedan</a></h6>
+                    </div>
+                </div>
+                <div class="car-type-item">
+                    <div class="car-image">
+                        <img src="assets/images/car-type/car-4.png" alt="">
+                        <div class="shape"><img src="assets/images/shape/shape-2.png" alt=""></div>
+                    </div>
+                    <div class="car-name">
+                        <h6><a href="#">Sports Car</a></h6>
+                    </div>
+                </div>
+                <div class="car-type-item">
+                    <div class="car-image">
+                        <img src="assets/images/car-type/car-5.png" alt="">
+                        <div class="shape"><img src="assets/images/shape/shape-2.png" alt=""></div>
+                    </div>
+                    <div class="car-name">
+                        <h6><a href="#">Hatchback</a></h6>
+                    </div>
+                </div>
+                <div class="car-type-item">
+                    <div class="car-image">
+                        <img src="assets/images/car-type/car-6.png" alt="">
+                        <div class="shape"><img src="assets/images/shape/shape-2.png" alt=""></div>
+                    </div>
+                    <div class="car-name">
+                        <h6><a href="#">SUV</a></h6>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Car Type Section End -->
 
     <!-- Blog Section -->
     <section class="blog-section ptb-50">

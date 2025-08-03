@@ -1,7 +1,7 @@
 .booking-section {
     position: relative;    
     z-index: 99;
-    margin-top: -85px;  
+    margin-top: -40px;  
 }
 .booking-section .filter-wrapper .nav-buttons {
     display: flex;
@@ -41,7 +41,7 @@
     color: #000
 }
 .booking-section .filter-wrapper .filter-group {
-    border-radius: 0 10px 10px 10px;
+    border-radius:10px;
     background: #ffffff;
     box-shadow: 0 20px 80px 0 rgb(0 0 0 / 8%);
 }

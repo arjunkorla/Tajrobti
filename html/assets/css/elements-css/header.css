@@ -6,7 +6,7 @@
 }
 
 .header-links{
-    color:#2C3BFF !important;
+    color:#35b4bc !important;
     font-family: var( --primary-font);
     font-size: 14px;
     font-style: normal;
@@ -528,7 +528,7 @@ nav.main-menu {
 
 .main-menu .navigation li.dropdown .dropdown-btn i {
     position: relative;
-    color:#2C3BFF;
+    color:#35b4bc;
     font-size: 12px;
     font-style: normal;
     font-weight: 900;
@@ -875,7 +875,7 @@ div#mCSB_1_container {
     left: 0px;
 }
 .home-three.fixed_header .sticky_header {
-    background:#EAF0FF;
+    background:#ffffff;
 }
 .header.home-three .header-top-one {
     background: transparent;
@@ -887,7 +887,7 @@ div#mCSB_1_container {
     color: var(--theme-color);
 }
 .header.home-three .header-top-one .header-top-info p {
-    color: rgb(17, 17, 17);
+    color: rgb(9, 49, 70);
 }
 .header.home-three .header-top-one .header-top-contact-info ul {
     display: flex;
@@ -897,38 +897,38 @@ div#mCSB_1_container {
 .header.home-three .header-top-one .header-top-contact-info ul li {
     font-size: 14px;
     font-weight: 500;
-    color: rgb(17, 17, 17);
+    color: rgb(9, 49, 70);
     display: flex;
     align-items: center;
     gap: 9px;
     font-family: var(--secondary-font);
 }
 .header.home-three .header-top-one .header-top-contact-info ul li a {
-    color: rgb(17, 17, 17);
+    color: rgb(9, 49, 70);
 }
 .header.home-three .header-top-one .header-top-contact-info ul li i {
     font-size: 14px;
-    color:#2C3BFF;
+    color:#35b4bc;
 }
 .home-three .main_header_inner {
     border-radius: 10px;
     padding: 0px 20px 0px 30px;
-    background-color:#EAF0FF;
+    background-color:#ffffff;
 }
 .home-three .main-menu .navigation > li > a {
-    color:#2C3BFF;
+    color:#35b4bc;
 }
 .home-three .main-menu .navigation > li.active > a {
     color: var(--theme-color);
 }
 .home-three .main_header_inner .search-toggler {
-    color:#2C3BFF;
+    color:#35b4bc;
 }
 .header #polyglotLanguageSwitcher span.trigger {
     display: block;
 }
 .header #polyglotLanguageSwitcher span.trigger::before {
-    color:#2C3BFF;
+    color:#35b4bc;
     content: "";
     top: 9px;
     right: -20px;
@@ -939,7 +939,7 @@ div#mCSB_1_container {
     color: rgb(255, 255, 255);
 }
 .home-three #polyglotLanguageSwitcher span.trigger::before {
-    color:#2C3BFF;
+    color:#35b4bc;
 }
 .header.home-four {
     position: absolute;

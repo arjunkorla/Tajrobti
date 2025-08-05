@@ -93,11 +93,11 @@
   --bs-tertiary-bg: #f8f9fa;
   --bs-tertiary-bg-rgb: 248, 249, 250;
   --bs-heading-color: inherit;
-  --bs-link-color: #0d6efd;
-  --bs-link-color-rgb: 13, 110, 253;
+  --bs-link-color: #35b4bc;
+  --bs-link-color-rgb: 53, 180, 188;
   --bs-link-decoration: underline;
-  --bs-link-hover-color: #0a58ca;
-  --bs-link-hover-color-rgb: 10, 88, 202;
+  --bs-link-hover-color: #093146;
+  --bs-link-hover-color-rgb: 9, 49, 70;
   --bs-code-color: #d63384;
   --bs-highlight-color: #212529;
   --bs-highlight-bg: #fff3cd;
@@ -461,6 +461,7 @@ textarea {
   font-family: inherit;
   font-size: inherit;
   line-height: inherit;
+  background: none;
 }
 
 button,

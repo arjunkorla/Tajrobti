@@ -29,7 +29,7 @@ h4.footer_widget_title{
     margin-bottom: 20px;
 }
 .footer_widget_logo{
-    max-width: 165px;
+    max-width: 200px;
     width: 100%;
     margin-bottom: 50px;
 }
@@ -70,7 +70,7 @@ h4.footer_widget_title{
 }
 .footer_resources_widget ul li a:hover,
 .footer_community_widget ul li a:hover{
-    color: #111111;
+    color: #093146;
 }
 .footer_newsletter_widget p{
     font-size: 14px;
@@ -162,7 +162,7 @@ h4.footer_widget_title{
     color: #fff;
 }
 .main_footer.home-three{
-    background-color:#2C3BFF;
+    background-color:#35b4bc;
 }
 .home-three .main_footer:before{
     display: none;

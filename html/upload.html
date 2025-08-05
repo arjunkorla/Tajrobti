@@ -50,7 +50,7 @@
 }
 
 .upload-wrapper:hover {
-    border-color: #007bff;
+    border-color: #35b4bc;
     background-color: #f1f8ff;
 }
 
@@ -63,7 +63,7 @@
 
 .upload-wrapper i {
     font-size: 24px;
-    color: #007bff;
+    color: #35b4bc;
 }
 
 .upload-wrapper span {
@@ -266,45 +266,36 @@
         <form action="#" method="post" class="default-form">
             <div class="row">
                 <div class="col-lg-6 col-md-6 col-sm-12 form-group">
-                    <input type="text" name="name" placeholder="Post Title" required>
-                </div>
-                <div class="col-lg-6 col-md-6 col-sm-12 form-group">
-                    <select name="category" class="my-select">
-                        <option value="">Select Category</option>
-                        <option value="SUVs">SUVs</option>
-                        <option value="Sedans">Sedans</option>
-                        <option value="Hatchbacks">Hatchbacks</option>
-                        <option value="Electric">Electric</option>
-                        <option value="Luxury">Luxury</option>
-                        <option value="Pickup Trucks">Pickup Trucks</option>
-                    </select>
-                </div>
-
-                <div class="col-lg-6 col-md-6 col-sm-12 form-group">
                     <select name="category" class="my-select">
                         <option value="">Select Car Make</option>
+                        <option value="Chevrolet">Chevrolet</option>
                         <option value="Toyota">Toyota</option>
                         <option value="Honda">Honda</option>
                         <option value="Ford">Ford</option>
-                        <option value="Chevrolet">Chevrolet</option>
                         <option value="BMW">BMW</option>
                     </select>
                 </div>
-
+        
                 <div class="col-lg-6 col-md-6 col-sm-12 form-group">
                     <select name="category" class="my-select">
                         <option value="">Select Car Model</option>
-                        <option value="Camry">Camry</option>
-                        <option value="Civic">Civic</option>
-                        <option value="Mustang">Mustang</option>
-                        <option value="Malibu">Malibu</option>
-                        <option value="X5">X5</option>
+                        <option value="Silverado">Silverado</option>
+                        <option value="Camaro">Camaro</option>
+                        <option value="Tahoe">Tahoe</option>
+                        <option value="Corvette">Corvette</option>
+                        <option value="Silverado HD">Silverado HD</option>
                     </select>
                 </div>
-
+        
+                <div class="col-lg-6 col-md-6 col-sm-12 form-group">
+                    <input type="text" name="name" placeholder="Car Type" class="my-select">
+                </div>
+        
                 <div class="col-lg-6 col-md-6 col-sm-12 form-group">
                     <select name="category" class="my-select">
                         <option value="">Year of Manufacture</option>
+                        <option value="2022">2022</option>
+                        <option value="2021">2021</option>
                         <option value="2020">2020</option>
                         <option value="2019">2019</option>
                         <option value="2018">2018</option>
@@ -312,29 +303,26 @@
                         <option value="2016">2016</option>
                     </select>
                 </div>
-
+        
                 <div class="col-lg-6 col-md-6 col-sm-12 form-group">
                     <select name="category" class="my-select">
-                        <option value="">Select Variant</option>
-                        <option value="Camry">SE</option>
-                        <option value="Civic">EX</option>
-                        <option value="Mustang">GT</option>
-                        <option value="Malibu">LT</option>
-                        <option value="X5">xDrive</option>
+                        <option value="">Select Country</option>
+                        <option value="Germany">Germany</option>
+                        <option value="Japan">Japan</option>
+                        <option value="USA">USA</option>
+                        <option value="Canada">Canada</option>
+                        <option value="Italy">Italy</option>
                     </select>
                 </div>
-
+        
                 <div class="col-lg-6 col-md-6 col-sm-12 form-group">
-                    <select name="category" class="my-select">
-                        <option value="">Location</option>
-                        <option value="Hawalli">Hawalli</option>
-                        <option value="Salmiya">Salmiya</option>
-                        <option value="Kuwait City">Kuwait City</option>
-                        <option value="Farwaniya">Farwaniya</option>
-                        <option value="Jahra">Jahra</option>
-                    </select>
+                    <input type="text" name="name" placeholder="Request" class="my-select">
                 </div>
-
+        
+                <div class="col-lg-6 col-md-6 col-sm-12 form-group">
+                    <input type="text" name="name" placeholder="Specific" class="my-select">
+                </div>
+        
                 <div class="col-lg-6 col-md-6 col-sm-12 form-group">
                     <label class="upload-wrapper">
                         <div class="upload-content">
@@ -342,14 +330,23 @@
                             <span>Upload Media</span>
                             <small class="form-text text-muted">Accepted formats: JPG, PNG, MP4 | Max size: 10MB</small>
                         </div>
-                        <input type="file" name="media_upload" required>
+                        <input type="file" name="media_upload">
                     </label>
                 </div>
-
-
-                <div class="col-lg-12 col-md-12 col-sm-12 form-group">
-                    <textarea name="message" placeholder="Car Details"></textarea>
+        
+                <div class="col-lg-6 col-md-6 col-sm-12 form-group">
+                    <input type="text" name="name" placeholder="Youtube Embbed link" class="my-select">
                 </div>
+        
+                <div class="col-lg-6 col-md-6 col-sm-12 form-group">
+                    <input type="text" name="name" placeholder="Instagram Embbed link" class="my-select">
+                </div>
+        
+                <div class="col-lg-12 col-md-12 col-sm-12 form-group">
+                    <textarea name="message" placeholder="Discription" rows="5" class="my-select" rows="5"
+                        style="height: auto !important;"></textarea>
+                </div>
+        
                 <div class="col-lg-12 col-md-12 col-sm-12 form-group centred">
                     <button type="submit" class="btn-style-five">Upload Post</button>
                 </div>
@@ -426,6 +423,12 @@
     <i class="icon-13"></i>
 </button>
 <!--End Scroll to Top -->
+
+<!-- WhatsApp Floating Icon -->
+<a href="https://wa.me/96512345678?text=Hello! I'm interested in your car reviews and would like to get more information." class="whatsapp-float" target="_blank" aria-label="Contact us on WhatsApp">
+    <i class="fab fa-whatsapp"></i>
+</a>
+<!-- End WhatsApp Floating Icon -->
 
 <!-- Include Js -->
 <script src="assets/js/jquery-3.7.1.min.js"></script>

@@ -346,7 +346,21 @@
                     <textarea name="message" placeholder="Discription" rows="5" class="my-select" rows="5"
                         style="height: auto !important;"></textarea>
                 </div>
-        
+
+                <div class="col-lg-3 col-md-3 col-sm-6 form-group select-flex">
+                    <input type="checkbox" class="feature-toggle" data-type="survey"> <label>Survey</label>
+                </div>
+
+                <div class="col-lg-3 col-md-3 col-sm-6 form-group select-flex">
+                    <input type="checkbox" class="feature-toggle" data-type="poll"> <label>Poll</label>
+                </div>
+                <div class="col-lg-3 col-md-3 col-sm-6 form-group select-flex">
+                    <input type="checkbox" class="feature-toggle" data-type="comparison"> <label>Comparison</label>
+                </div>
+                <div class="col-lg-3 col-md-3 col-sm-6 form-group select-flex">
+                    <input type="checkbox" class="feature-toggle" data-type="rating"> <label>Rating</label>
+                </div>
+
                 <div class="col-lg-12 col-md-12 col-sm-12 form-group centred">
                     <button type="submit" class="btn-style-five">Upload Post</button>
                 </div>
@@ -418,6 +432,49 @@
 </footer>
 <!-- Main Footer End -->
 
+<div id="featureModal" class="feature-modal" style="display: none;">
+  <div class="modal-content">
+    <span class="close-modal">&times;</span>
+    <h3 id="modalTitle">Add Fields</h3>
+    
+    <!-- Survey Form -->
+    <form id="surveyForm" class="feature-form" style="display: none;">
+      <label>Survey Question:</label>
+      <input type="text" name="survey_question" placeholder="Enter question" class="form-control"><br>
+      <div id="surveyOptions"></div>
+      <button type="button" class="add-field-btn" data-target="surveyOptions">Add Option</button>
+      <button type="submit">Save Survey</button>
+    </form>
+
+    <!-- Poll Form -->
+    <form id="pollForm" class="feature-form" style="display: none;">
+      <label>Poll Topic:</label>
+      <input type="text" name="poll_topic" placeholder="Poll topic" class="form-control"><br>
+      <div id="pollOptions"></div>
+      <button type="button" class="add-field-btn" data-target="pollOptions">Add Poll Option</button>
+      <button type="submit">Save Poll</button>
+    </form>
+
+    <!-- Comparison Form -->
+    <form id="comparisonForm" class="feature-form" style="display: none;">
+      <label>Comparison Items:</label>
+      <div id="comparisonItems"></div>
+      <button type="button" class="add-field-btn" data-target="comparisonItems">Add Item</button>
+      <button type="submit">Save Comparison</button>
+    </form>
+
+    <!-- Rating Form -->
+    <form id="ratingForm" class="feature-form" style="display: none;">
+      <label>Rating Title:</label>
+      <input type="text" name="rating_title" placeholder="Title for rating" class="form-control"><br>
+      <label>Max Stars (1–5):</label>
+      <input type="number" name="max_stars" min="1" max="5" value="5" class="form-control">
+      <button type="submit">Save Rating</button>
+    </form>
+  </div>
+</div>
+
+
 <!-- Scroll to Top -->
 <button class="scroll-top scroll-to-target" data-target="html">
     <i class="icon-13"></i>
@@ -429,6 +486,66 @@
     <i class="fab fa-whatsapp"></i>
 </a>
 <!-- End WhatsApp Floating Icon -->
+
+<script>
+  const modal = document.getElementById("featureModal");
+  const closeModal = document.querySelector(".close-modal");
+  const forms = document.querySelectorAll('.feature-form');
+  const modalTitle = document.getElementById("modalTitle");
+
+  document.querySelectorAll('.feature-toggle').forEach(checkbox => {
+    checkbox.addEventListener('change', function () {
+      if (this.checked) {
+        showModal(this.dataset.type);
+      }
+    });
+  });
+
+  closeModal.addEventListener('click', () => {
+    modal.style.display = "none";
+    forms.forEach(f => f.style.display = "none");
+  });
+
+  function showModal(type) {
+    modal.style.display = "flex";
+    forms.forEach(f => f.style.display = "none");
+
+    const formId = type + "Form";
+    const form = document.getElementById(formId);
+    if (form) {
+      form.style.display = "block";
+      modalTitle.innerText = "Add " + capitalize(type);
+    }
+  }
+
+  function capitalize(str) {
+    return str.charAt(0).toUpperCase() + str.slice(1);
+  }
+
+  // Add dynamic fields
+  document.querySelectorAll('.add-field-btn').forEach(btn => {
+    btn.addEventListener('click', () => {
+      const container = document.getElementById(btn.dataset.target);
+      const input = document.createElement("input");
+      input.type = "text";
+      input.name = `${btn.dataset.target}[]`;
+      input.placeholder = "Enter option";
+      input.classList.add("form-control");
+      container.appendChild(input);
+    });
+  });
+
+  // Handle form submissions (optional: can append to main form)
+  forms.forEach(form => {
+    form.addEventListener('submit', function (e) {
+      e.preventDefault();
+      alert(`${form.id} submitted`);
+      modal.style.display = "none";
+      form.reset();
+    });
+  });
+</script>
+
 
 <!-- Include Js -->
 <script src="assets/js/jquery-3.7.1.min.js"></script>

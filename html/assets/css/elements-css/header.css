@@ -6,7 +6,7 @@
 }
 
 .header-links{
-    color:#35b4bc !important;
+    color:#127bb5 !important;
     font-family: var( --primary-font);
     font-size: 14px;
     font-style: normal;
@@ -528,7 +528,7 @@ nav.main-menu {
 
 .main-menu .navigation li.dropdown .dropdown-btn i {
     position: relative;
-    color:#35b4bc;
+    color:#127bb5;
     font-size: 12px;
     font-style: normal;
     font-weight: 900;
@@ -908,7 +908,7 @@ div#mCSB_1_container {
 }
 .header.home-three .header-top-one .header-top-contact-info ul li i {
     font-size: 14px;
-    color:#35b4bc;
+    color:#127bb5;
 }
 .home-three .main_header_inner {
     border-radius: 10px;
@@ -916,19 +916,19 @@ div#mCSB_1_container {
     background-color:#ffffff;
 }
 .home-three .main-menu .navigation > li > a {
-    color:#35b4bc;
+    color:#127bb5;
 }
 .home-three .main-menu .navigation > li.active > a {
     color: var(--theme-color);
 }
 .home-three .main_header_inner .search-toggler {
-    color:#35b4bc;
+    color:#127bb5;
 }
 .header #polyglotLanguageSwitcher span.trigger {
     display: block;
 }
 .header #polyglotLanguageSwitcher span.trigger::before {
-    color:#35b4bc;
+    color:#127bb5;
     content: "";
     top: 9px;
     right: -20px;
@@ -939,7 +939,7 @@ div#mCSB_1_container {
     color: rgb(255, 255, 255);
 }
 .home-three #polyglotLanguageSwitcher span.trigger::before {
-    color:#35b4bc;
+    color:#127bb5;
 }
 .header.home-four {
     position: absolute;

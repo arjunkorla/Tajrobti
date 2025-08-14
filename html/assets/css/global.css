@@ -3,7 +3,7 @@
     --body-color: #6a6a6a;
     --grey-bg: #F6F6F6;
     --rating-color: #FFBA07;
-    --theme-color: #35b4bc;
+    --theme-color: #127bb5;
     --primary-font: "Outfit", sans-serif;
     --secondary-font: 'Inter', sans-serif;
 }
@@ -32,6 +32,34 @@ body {
 .comment{
     border-bottom:none !important;
     padding: 0px !important;
+}
+
+.search-box {
+    display: flex;
+    align-items: center;
+    background: white;
+    border-radius: 8px;
+    padding: 2px 5px;
+    border: solid 1px #ccc;
+    width: 200px;
+}
+
+.search-box input {
+    border: none;
+    outline: none;
+    font-size: 14px;
+    flex: 1;
+    font: var(--secondary-font);
+}
+
+.search-box button {
+    border: none;
+    outline: none;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: background 0.3s;
 }
 
 /* Survey */
@@ -366,7 +394,7 @@ textarea {
 .post-footer span {
     display: flex;
     align-items: center;
-    margin: 5px 10px 0 0;
+    margin: 5px 0 0 0;
     cursor: pointer;
 }
 

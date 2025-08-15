@@ -40,34 +40,6 @@
 
 <body class="boxed_wrapper">
 
-
-    <!--Search Popup-->
-    <div id="search-popup" class="search-popup">
-        <div class="popup-inner">
-            <div class="container">
-                <div class="upper-box">
-                    <figure class="logo-box"><a href="index.html"><img src="assets/images/logo.png" alt=""></a></figure>
-                    <div class="close-search"><span class="fa-solid fa-xmark"></span></div>
-                </div>
-            </div>
-            <div class="overlay-layer"></div>
-            <div class="container">
-                <div class="search-form">
-                    <form method="post" action="#">
-                        <div class="form-group">
-                            <fieldset>
-                                <input type="search" class="form-control" name="search-input" value=""
-                                    placeholder="Type your keyword and hit" required>
-                                <button type="submit"><i class="icon-50"></i></button>
-                            </fieldset>
-                        </div>
-                    </form>
-                </div>
-            </div>
-        </div>
-    </div>
-    <!--End Search Popup-->
-
     <!-- Main Header -->
     <header class="header home-three">
         <!-- Header Top -->
@@ -126,7 +98,10 @@
                         </nav>
                     </div>
                     <div class="header_right_content">
-                        <button class="search-toggler"><i class="fas fa-search"></i></button>
+                        <div class="search-box">
+                            <input type="text" placeholder="Search..." onblur="this.placeholder='Search...'" onclick="this.placeholder=''">
+                            <button><i class="fas fa-search"></i></button>
+                        </div>
                         <button class="header-links" onclick="location.href='login.html'">Login/Register</button>
                         <button tool-tip="Login with Google" onclick="location.href='login.html'"><img src="assets/images/icons/google.svg" alt=""></button>
                         <button class="header-links arabic" onclick="location.href='#'">العربية</button>
@@ -152,7 +127,10 @@
                         </nav>
                     </div>
                     <div class="header_right_content">
-                        <button class="search-toggler"><i class="fas fa-search"></i></button>
+                        <div class="search-box">
+                            <input type="text" placeholder="Search..." onblur="this.placeholder='Search...'" onclick="this.placeholder=''">
+                            <button><i class="fas fa-search"></i></button>
+                        </div>
                         <button class="header-links" onclick="location.href='login.html'">Login/Register</button>
                         <button tool-tip="Login with Google" onclick="location.href='login.html'"><img src="assets/images/icons/google.svg" alt=""></button>
                         <div class="header-links arabic" onclick="location.href='#'">العربية</div>

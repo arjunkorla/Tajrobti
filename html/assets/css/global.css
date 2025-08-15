@@ -38,18 +38,22 @@ body {
     display: flex;
     align-items: center;
     background: white;
-    border-radius: 8px;
-    padding: 2px 5px;
-    border: solid 1px #ccc;
+    border-radius: 4px;
+    padding: 3px 10px;
+    border: solid 1px #127bb5;
     width: 200px;
 }
 
 .search-box input {
     border: none;
     outline: none;
-    font-size: 14px;
+    font-size: 14px !important;
     flex: 1;
-    font: var(--secondary-font);
+    font-family: var(--primary-font) !important;
+}
+
+.search-box input::placeholder {
+    color: #127bb5;
 }
 
 .search-box button {
@@ -60,6 +64,10 @@ body {
     justify-content: center;
     align-items: center;
     transition: background 0.3s;
+}
+
+.search-box button i{
+    color: #127bb5;
 }
 
 /* Survey */

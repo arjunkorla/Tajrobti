@@ -88,9 +88,6 @@
     margin-top: -10px;
 }
 </style>
-
-
-
 </head>
 
 <!-- Page Wrapper -->
@@ -414,41 +411,41 @@
 <div id="featureModal" class="feature-modal" style="display: none;">
   <div class="modal-content">
     <span class="close-modal">&times;</span>
-    <h3 id="modalTitle">Add Fields</h3>
-    
+    <h4 id="modalTitle">Add Fields</h4>
+
     <!-- Survey Form -->
     <form id="surveyForm" class="feature-form" style="display: none;">
-      <label>Survey Question:</label>
-      <input type="text" name="survey_question" placeholder="Enter question" class="form-control"><br>
+      <h6>Survey Question:</h6>
+      <input type="text" name="survey_question" placeholder="Enter question" class="form-control ">
       <div id="surveyOptions"></div>
-      <button type="button" class="add-field-btn" data-target="surveyOptions">Add Option</button>
-      <button type="submit">Save Survey</button>
+      <button type="button" class="add-field-btn btn-style-one" data-target="surveyOptions">Add Option</button>
+      <button type="submit" class="btn-style-five">Save Survey</button>
     </form>
 
     <!-- Poll Form -->
     <form id="pollForm" class="feature-form" style="display: none;">
-      <label>Poll Topic:</label>
-      <input type="text" name="poll_topic" placeholder="Poll topic" class="form-control"><br>
+      <h6>Poll Topic:</h6>
+      <input type="text" name="poll_topic" placeholder="Poll topic" class="form-control">
       <div id="pollOptions"></div>
-      <button type="button" class="add-field-btn" data-target="pollOptions">Add Poll Option</button>
-      <button type="submit">Save Poll</button>
+      <button type="button" class="add-field-btn btn-style-one" data-target="pollOptions">Add Poll Option</button>
+      <button type="submit" class="btn-style-five">Save Poll</button>
     </form>
 
     <!-- Comparison Form -->
     <form id="comparisonForm" class="feature-form" style="display: none;">
-      <label>Comparison Items:</label>
+      <h6>Comparison Items:</h6>
       <div id="comparisonItems"></div>
-      <button type="button" class="add-field-btn" data-target="comparisonItems">Add Item</button>
-      <button type="submit">Save Comparison</button>
+      <button type="button" class="add-field-btn btn-style-one" data-target="comparisonItems">Add Item</button>
+      <button type="submit" class="btn-style-five">Save Comparison</button>
     </form>
 
     <!-- Rating Form -->
     <form id="ratingForm" class="feature-form" style="display: none;">
-      <label>Rating Title:</label>
-      <input type="text" name="rating_title" placeholder="Title for rating" class="form-control"><br>
-      <label>Max Stars (1–5):</label>
+      <h6>Rating Title:</h6>
+      <input type="text" name="rating_title" placeholder="Title for rating" class="form-control">
+      <h6>Max Stars (1–5):</h6>
       <input type="number" name="max_stars" min="1" max="5" value="5" class="form-control">
-      <button type="submit">Save Rating</button>
+      <button type="submit" class="btn-style-five">Save Rating</button>
     </form>
   </div>
 </div>

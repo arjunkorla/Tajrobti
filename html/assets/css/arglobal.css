@@ -1,11 +1,13 @@
+@import url('https://fonts.googleapis.com/css2?family=Readex+Pro:wght@160..700&display=swap');
+
 :root{
     --primary-color: #093146;
     --body-color: #6a6a6a;
     --grey-bg: #F6F6F6;
     --rating-color: #FFBA07;
     --theme-color: #127bb5;
-    --primary-font: "Outfit", sans-serif;
-    --secondary-font: 'Inter', sans-serif;
+    --primary-font: "Readex Pro", sans-serif;
+    --secondary-font: 'Readex Pro', sans-serif;
 }
 * {
     margin:0px;
@@ -378,7 +380,7 @@ textarea {
     width: 40px;
     height: 40px;
     border-radius: 50%;
-    margin-right: 10px;
+    margin-left: 10px;
 }
 
 /* Title */
@@ -416,7 +418,7 @@ textarea {
 }
 
 .post-footer .icon {
-    margin-right: 5px;
+    margin-left: 5px;
 }
 
 .post_image {

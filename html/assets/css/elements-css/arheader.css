@@ -728,7 +728,7 @@ nav.main-menu {
 
 .mobile-menu .navigation li.dropdown .dropdown-btn {
     position: absolute;
-    right: 6px;
+    left: 6px;
     top: 6px;
     width: 32px;
     height: 32px;
@@ -956,7 +956,7 @@ div#mCSB_1_container {
     padding: 10px;
 }
 .home-three .menu_area .mobile-nav-toggler .icon-bar{
-    background-color: #ffffff;
+    background-color: #127bb5;
 }
 .header.home-three .header-top-one .header-top-contact-info ul{
     flex-wrap: wrap;

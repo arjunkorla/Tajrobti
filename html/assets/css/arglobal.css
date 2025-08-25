@@ -829,7 +829,7 @@ img {
               box-shadow: 0 0 0 0 rgba(255, 255, 255, 0);
     }
 }
-.btn-style-one{
+.btn-style-one , .btn-custom{
     font-size: 14px;
     font-style: normal;
     font-weight: 500;
@@ -844,6 +844,16 @@ img {
     border: 1px solid var(--theme-color);
     transition: all .5s;
 }
+
+.btn-custom{
+    background-color: var(--theme-color);
+    color: #fff !important;
+}
+
+.btn-custom:hover{
+    background: var(--primary-color) !important;
+}
+
 .btn-style-one:hover{
     color: var(--bs-white);
     background: var(--theme-color);
